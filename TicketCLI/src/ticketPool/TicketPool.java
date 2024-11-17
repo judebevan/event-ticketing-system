@@ -1,68 +1,49 @@
 package ticketPool;
 
-import logger.Logger;
-
-import java.util.concurrent.locks.ReentrantLock;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class TicketPool {
-    private int ticketsAvailable;
+    private final Queue<Integer> tickets;
     private final int maxCapacity;
-    private final ReentrantLock lock = new ReentrantLock();
+    private final int totalTickets; // Total tickets allowed in the system
 
-    public TicketPool(int initialTickets, int maxCapacity) {
-        if (initialTickets > maxCapacity) {
-            throw new IllegalArgumentException("Initial tickets cannot exceed maximum capacity.");
-        }
-
-        this.ticketsAvailable = initialTickets;
+    public TicketPool(int maxCapacity, int totalTickets) {
+        this.tickets = new LinkedList<>();
         this.maxCapacity = maxCapacity;
+        this.totalTickets = totalTickets;
     }
 
-    public boolean addTickets(int count) {
-        lock.lock();
-        try {
+    public synchronized boolean addTicket(int ticketId) {
+        if (tickets.size() >= maxCapacity) {
+            return false; // Pool is full
+        }
+        tickets.add(ticketId);
+        notifyAll(); // Notify consumers that a ticket is available
+        return true;
+    }
 
-            if (ticketsAvailable + count <= maxCapacity) {
-                ticketsAvailable += count;
-                Logger.log(count + " tickets added. Total tickets now: " + ticketsAvailable);
-                return true;
-            } else {
-                Logger.log("Cannot add " + count + " tickets. Max capacity reached. Tickets available: " + ticketsAvailable);
-                return false;
+    public synchronized Integer removeTicket() {
+        while (tickets.isEmpty()) {
+            try {
+                wait(); // Wait for tickets to be available
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return null;
             }
-        } finally {
-            lock.unlock();
         }
+        return tickets.poll();
     }
 
-    public boolean removeTickets(int count) {
-        lock.lock();
-        try {
-            if (ticketsAvailable >= count) {
-                ticketsAvailable -= count;
-                Logger.log(count + " tickets sold. Remaining tickets: " + ticketsAvailable);
-                return true;
-            } else {
-                Logger.log("Not enough tickets available for sale. Tickets available: " + ticketsAvailable);
-                return false;
-            }
-        } catch (Exception e) {
-            Logger.log("Error in removing tickets: " + e.getMessage());
-            return false;
-        } finally {
-            lock.unlock();
-        }
+    public synchronized int getCurrentSize() {
+        return tickets.size();
     }
 
-
-    public int getTicketsAvailable() {
-        lock.lock();
-        try {
-            return ticketsAvailable;
-        } finally {
-            lock.unlock();
-        }
+    public int getMaxCapacity() {
+        return maxCapacity;
     }
 
+    public int getTotalTickets() {
+        return totalTickets;
+    }
 }
-

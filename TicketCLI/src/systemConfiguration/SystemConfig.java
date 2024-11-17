@@ -10,43 +10,30 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class SystemConfig {
-
-    private int maxTicketCapacity;
     private int totalTickets;
     private int ticketReleaseRate; // How many tickets will be released to the pool at a second
     private int customerRetrievalRate; // How many tickets will a customer buy at a second
+    private int maxTicketCapacity;
     private int vendor;
     private int customer;
 
     // Constructor
-    public SystemConfig(int maxTicketCapacity, int totalTickets, int ticketReleaseRate, int customerRetrievalRate, int vendor, int customer) {
-        this.maxTicketCapacity = maxTicketCapacity;
+    public SystemConfig(int totalTickets, int ticketReleaseRate, int customerRetrievalRate, int maxTicketCapacity, int vendor, int customer) {
         this.totalTickets = totalTickets;
         this.ticketReleaseRate = ticketReleaseRate;
         this.customerRetrievalRate = customerRetrievalRate;
+        this.maxTicketCapacity = maxTicketCapacity;
         this.vendor = vendor;
         this.customer = customer;
     }
 
     public SystemConfig() {}
 
-    // Getters and Setters
-    public int getMaxTicketCapacity() {
-        return maxTicketCapacity;
-    }
-
-    public void setMaxTicketCapacity(int maxTicketCapacity) {
-        this.maxTicketCapacity = maxTicketCapacity;
-    }
-
     public int getTotalTickets() {
         return totalTickets;
     }
 
     public void setTotalTickets(int totalTickets) {
-        if (totalTickets > maxTicketCapacity) {
-            throw new IllegalArgumentException("Total tickets cannot exceed the maximum ticket capacity.");
-        }
         this.totalTickets = totalTickets;
     }
 
@@ -82,12 +69,20 @@ public class SystemConfig {
         this.customer = customer;
     }
 
+    public int getMaxTicketCapacity() {
+        return maxTicketCapacity;
+    }
+
+    public void setMaxTicketCapacity(int maxTicketCapacity) {
+        this.maxTicketCapacity = maxTicketCapacity;
+    }
+
     public int getValidatedInput(Scanner scanner, String inputName) {
         while (true) {
             try {
                 int value = scanner.nextInt();
-                if (value < 0) {
-                    throw new IllegalArgumentException(inputName + " cannot be negative.");
+                if (value <= 0) {
+                    throw new IllegalArgumentException(inputName + " cannot be negative or zero.");
                 }
                 return value;
             } catch (IllegalArgumentException e) {

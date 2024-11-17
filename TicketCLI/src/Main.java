@@ -1,5 +1,6 @@
 import actors.Customer;
 import actors.Vendor;
+import logger.Logger;
 import systemConfiguration.SystemConfig;
 import ticketPool.TicketPool;
 
@@ -17,7 +18,7 @@ public class Main {
     final private static List<Thread> customerThreads = new ArrayList<>();
 
     public static void main(String[] args) {
-        System.out.println("Hi, Enter the configuration parameters: ");
+        System.out.println("Welcome to the Event Ticketing System!");
         promptForInput();
         sysControl();
     }
@@ -25,18 +26,8 @@ public class Main {
     private static void promptForInput() {
         Scanner configScanner = new Scanner(System.in);
 
-        System.out.print("Enter Maximum Ticket Capacity: ");
-        config.setMaxTicketCapacity(config.getValidatedInput(configScanner, "Maximum Ticket Capacity"));
-
-        while (true) {
-            System.out.print("Enter Total Tickets: ");
-            try {
-                config.setTotalTickets(config.getValidatedInput(configScanner, "Total Tickets"));
-                break; // Exit loop if input is valid
-            } catch (IllegalArgumentException e) {
-                System.out.println(e.getMessage());
-            }
-        }
+        System.out.print("Enter Total Tickets: ");
+        config.setTotalTickets(config.getValidatedInput(configScanner, "Total Tickets"));
 
         System.out.print("Enter Ticket Release Rate: ");
         config.setTicketReleaseRate(config.getValidatedInput(configScanner, "Ticket Release Rate"));
@@ -44,17 +35,23 @@ public class Main {
         System.out.print("Enter Customer Retrieval Rate: ");
         config.setCustomerRetrievalRate(config.getValidatedInput(configScanner, "Customer Retrieval Rate"));
 
+        System.out.print("Enter Maximum Ticket Capacity: ");
+        config.setMaxTicketCapacity(config.getValidatedInput(configScanner, "Maximum Ticket Capacity"));
+
         System.out.print("Enter Vendor count: ");
         config.setVendor(config.getValidatedInput(configScanner, "vendor count"));
 
         System.out.print("Enter customer count: ");
         config.setCustomer(config.getValidatedInput(configScanner, "customer count"));
 
+        ticketPool = new TicketPool(config.getMaxTicketCapacity(), config.getTotalTickets());
         config.saveToFile("resources/configuration.json");
+        System.out.println("System configured successfully!");
 
     }
 
     private static void sysControl() {
+        Scanner controlScanner = new Scanner(System.in);
         System.out.println("""
                 Follow the system controls:\s
                 | Enter command '1' to load system configurations |\s
@@ -62,7 +59,6 @@ public class Main {
                 | Enter command '4' to stop the buying and selling |\s
                 | Enter command '5' to stop the running system |\s
                 """);
-        Scanner controlScanner = new Scanner(System.in);
 
         while (true) {
             try {
@@ -105,41 +101,38 @@ public class Main {
     }
 
     private static void startThreads() {
-        if (ticketPool == null) {
-            ticketPool = new TicketPool(config.getTotalTickets(), config.getMaxTicketCapacity());
+        for (int i = 0; i < config.getVendor(); i++) {
+            Thread vendorThread = new Thread(new Vendor(i+1, ticketPool, config.getTicketReleaseRate(), config.getTotalTickets()));
+            vendorThreads.add(vendorThread);
+            vendorThread.start();
         }
 
-        try {
-            for (int i = 0; i < config.getVendor(); i++) {
-                Thread vendor = new Thread(new Vendor(ticketPool, config.getTicketReleaseRate()));
-                vendorThreads.add(vendor);
-                vendor.start();
-            }
-
-            for (int i = 0; i < config.getCustomer(); i++) {
-                Thread customer = new Thread(new Customer(ticketPool, config.getCustomerRetrievalRate()));
-                customerThreads.add(customer);
-                customer.start();
-            }
-            System.out.println("Threads started.");
-        } catch (Exception e) {
-            System.out.println("Error starting threads: " + e.getMessage());
+        for (int i = 0; i < config.getCustomer(); i++) {
+            Thread customerThread = new Thread(new Customer(ticketPool, config.getCustomerRetrievalRate()));
+            customerThreads.add(customerThread);
+            customerThread.start();
         }
+
+        Logger.log("Ticket operations started with threads.");
     }
+
+
 
 
     private static void stopThreads() {
         try {
-            vendorThreads.forEach(thread -> {
+            for (Thread thread : vendorThreads) {
                 if (thread.isAlive()) {
                     thread.interrupt();
+                    thread.join(); // Wait for the thread to terminate
                 }
-            });
-            customerThreads.forEach(thread -> {
+            }
+            for (Thread thread : customerThreads) {
                 if (thread.isAlive()) {
                     thread.interrupt();
+                    thread.join(); // Wait for the thread to terminate
                 }
-            });
+            }
             vendorThreads.clear();
             customerThreads.clear();
             System.out.println("Threads stopped.");
@@ -152,10 +145,10 @@ public class Main {
         config = SystemConfig.loadFromFile("resources/configuration.json");
         if (config != null) {
             System.out.println("Configuration loaded successfully:");
-            System.out.println("Max Ticket Capacity: " + config.getMaxTicketCapacity());
             System.out.println("Total Tickets: " + config.getTotalTickets());
             System.out.println("Ticket Release Rate: " + config.getTicketReleaseRate());
             System.out.println("Customer Retrieval Rate: " + config.getCustomerRetrievalRate());
+            System.out.println("Max Ticket Capacity: " + config.getMaxTicketCapacity());
             System.out.println("vendor count: " + config.getVendor());
             System.out.println("Customer count: " + config.getCustomer());
         }

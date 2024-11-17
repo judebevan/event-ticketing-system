@@ -1,1623 +1,385 @@
-2024-11-17 15:42:59 - Vendor added 100 tickets. Tickets available: 700
-2024-11-17 15:42:59 - Customer retrieved 50 tickets. Tickets remaining: 600
-2024-11-17 15:42:59 - Customer retrieved 50 tickets. Tickets remaining: 700
-2024-11-17 15:42:59 - Customer retrieved 50 tickets. Tickets remaining: 600
-2024-11-17 15:42:59 - Vendor added 100 tickets. Tickets available: 800
-2024-11-17 15:42:59 - Customer retrieved 50 tickets. Tickets remaining: 650
-2024-11-17 15:43:00 - Vendor added 100 tickets. Tickets available: 700
-2024-11-17 15:43:00 - Customer retrieved 50 tickets. Tickets remaining: 550
-2024-11-17 15:43:00 - Customer retrieved 50 tickets. Tickets remaining: 600
-2024-11-17 15:43:00 - Customer retrieved 50 tickets. Tickets remaining: 650
-2024-11-17 15:43:00 - Vendor added 100 tickets. Tickets available: 650
-2024-11-17 15:43:00 - Customer retrieved 50 tickets. Tickets remaining: 600
-2024-11-17 15:43:01 - Vendor added 100 tickets. Tickets available: 700
-2024-11-17 15:43:01 - Customer retrieved 50 tickets. Tickets remaining: 650
-2024-11-17 15:43:01 - Customer retrieved 50 tickets. Tickets remaining: 600
-2024-11-17 15:43:01 - Customer retrieved 50 tickets. Tickets remaining: 550
-2024-11-17 15:43:01 - Customer retrieved 50 tickets. Tickets remaining: 500
-2024-11-17 15:43:01 - Vendor added 100 tickets. Tickets available: 600
-2024-11-17 15:43:02 - Customer retrieved 50 tickets. Tickets remaining: 550
-2024-11-17 15:43:02 - Vendor added 100 tickets. Tickets available: 650
-2024-11-17 15:43:02 - Customer retrieved 50 tickets. Tickets remaining: 600
-2024-11-17 15:43:02 - Customer retrieved 50 tickets. Tickets remaining: 550
-2024-11-17 15:43:02 - Customer retrieved 50 tickets. Tickets remaining: 500
-2024-11-17 15:43:03 - Vendor added 100 tickets. Tickets available: 600
-2024-11-17 15:43:03 - Vendor added 100 tickets. Tickets available: 700
-2024-11-17 15:43:03 - Customer retrieved 50 tickets. Tickets remaining: 600
-2024-11-17 15:43:04 - Customer retrieved 50 tickets. Tickets remaining: 650
-2024-11-17 15:43:04 - Customer retrieved 50 tickets. Tickets remaining: 550
-2024-11-17 15:43:04 - Customer retrieved 50 tickets. Tickets remaining: 500
-2024-11-17 15:43:04 - Vendor added 100 tickets. Tickets available: 600
-2024-11-17 15:43:05 - Vendor added 100 tickets. Tickets available: 700
-2024-11-17 15:43:05 - Customer retrieved 50 tickets. Tickets remaining: 650
-2024-11-17 15:43:05 - Customer retrieved 50 tickets. Tickets remaining: 600
-2024-11-17 15:43:05 - Customer retrieved 50 tickets. Tickets remaining: 500
-2024-11-17 15:43:05 - Customer retrieved 50 tickets. Tickets remaining: 550
-2024-11-17 15:43:05 - Vendor added 100 tickets. Tickets available: 600
-2024-11-17 15:43:06 - Vendor added 100 tickets. Tickets available: 650
-2024-11-17 15:43:06 - Customer retrieved 50 tickets. Tickets remaining: 650
-2024-11-17 15:43:06 - Customer retrieved 50 tickets. Tickets remaining: 600
-2024-11-17 15:43:06 - Customer retrieved 50 tickets. Tickets remaining: 550
-2024-11-17 15:43:06 - Customer retrieved 50 tickets. Tickets remaining: 500
-2024-11-17 15:43:06 - Vendor added 100 tickets. Tickets available: 600
-2024-11-17 15:43:07 - Vendor added 100 tickets. Tickets available: 700
-2024-11-17 15:43:07 - Customer retrieved 50 tickets. Tickets remaining: 650
-2024-11-17 15:43:07 - Customer retrieved 50 tickets. Tickets remaining: 550
-2024-11-17 15:43:07 - Customer retrieved 50 tickets. Tickets remaining: 600
-2024-11-17 15:43:07 - Customer retrieved 50 tickets. Tickets remaining: 500
-2024-11-17 15:43:07 - Vendor added 100 tickets. Tickets available: 600
-2024-11-17 15:43:08 - Vendor added 100 tickets. Tickets available: 700
-2024-11-17 15:43:08 - Customer retrieved 50 tickets. Tickets remaining: 650
-2024-11-17 15:43:08 - Customer retrieved 50 tickets. Tickets remaining: 600
-2024-11-17 15:43:08 - Customer retrieved 50 tickets. Tickets remaining: 550
-2024-11-17 15:43:08 - Customer retrieved 50 tickets. Tickets remaining: 500
-2024-11-17 15:43:08 - Vendor added 100 tickets. Tickets available: 600
-2024-11-17 15:43:09 - Customer retrieved 50 tickets. Tickets remaining: 550
-2024-11-17 15:43:09 - Customer retrieved 50 tickets. Tickets remaining: 500
-2024-11-17 15:43:09 - Vendor added 100 tickets. Tickets available: 600
-2024-11-17 15:43:09 - Customer retrieved 50 tickets. Tickets remaining: 550
-2024-11-17 15:43:09 - Customer retrieved 50 tickets. Tickets remaining: 500
-2024-11-17 15:43:09 - Vendor added 100 tickets. Tickets available: 600
-2024-11-17 16:42:28 - 20 tickets added. Total tickets now: 70
-2024-11-17 16:42:28 - 1 tickets sold. Remaining tickets: 69
-2024-11-17 16:42:28 - Customer retrieved 1 tickets. Tickets remaining: 69
-2024-11-17 16:42:29 - 20 tickets added. Total tickets now: 89
-2024-11-17 16:42:29 - 1 tickets sold. Remaining tickets: 88
-2024-11-17 16:42:29 - Customer retrieved 1 tickets. Tickets remaining: 88
-2024-11-17 16:42:30 - Cannot add 20 tickets. Max capacity reached. Tickets available: 88
-2024-11-17 16:42:30 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 16:42:30 - 1 tickets sold. Remaining tickets: 87
-2024-11-17 16:42:30 - Customer retrieved 1 tickets. Tickets remaining: 87
-2024-11-17 16:42:31 - Cannot add 20 tickets. Max capacity reached. Tickets available: 87
-2024-11-17 16:42:31 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 16:42:31 - 1 tickets sold. Remaining tickets: 86
-2024-11-17 16:42:31 - Customer retrieved 1 tickets. Tickets remaining: 86
-2024-11-17 16:42:32 - Cannot add 20 tickets. Max capacity reached. Tickets available: 86
-2024-11-17 16:42:32 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 16:42:32 - 1 tickets sold. Remaining tickets: 85
-2024-11-17 16:42:32 - Customer retrieved 1 tickets. Tickets remaining: 85
-2024-11-17 16:42:33 - 1 tickets sold. Remaining tickets: 84
-2024-11-17 16:42:33 - Customer retrieved 1 tickets. Tickets remaining: 84
-2024-11-17 16:42:33 - Cannot add 20 tickets. Max capacity reached. Tickets available: 84
-2024-11-17 16:42:33 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 16:42:34 - 1 tickets sold. Remaining tickets: 83
-2024-11-17 16:42:34 - Customer retrieved 1 tickets. Tickets remaining: 83
-2024-11-17 16:42:34 - Cannot add 20 tickets. Max capacity reached. Tickets available: 83
-2024-11-17 16:42:34 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 16:42:35 - Cannot add 20 tickets. Max capacity reached. Tickets available: 83
-2024-11-17 16:42:35 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 16:42:35 - 1 tickets sold. Remaining tickets: 82
-2024-11-17 16:42:35 - Customer retrieved 1 tickets. Tickets remaining: 82
-2024-11-17 16:42:36 - Cannot add 20 tickets. Max capacity reached. Tickets available: 82
-2024-11-17 16:42:36 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 16:42:36 - 1 tickets sold. Remaining tickets: 81
-2024-11-17 16:42:36 - Customer retrieved 1 tickets. Tickets remaining: 81
-2024-11-17 16:42:37 - Cannot add 20 tickets. Max capacity reached. Tickets available: 81
-2024-11-17 16:42:37 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 16:42:37 - 1 tickets sold. Remaining tickets: 80
-2024-11-17 16:42:37 - Customer retrieved 1 tickets. Tickets remaining: 80
-2024-11-17 16:42:38 - 20 tickets added. Total tickets now: 100
-2024-11-17 16:42:38 - 1 tickets sold. Remaining tickets: 99
-2024-11-17 16:42:38 - Customer retrieved 1 tickets. Tickets remaining: 99
-2024-11-17 16:42:39 - Cannot add 20 tickets. Max capacity reached. Tickets available: 99
-2024-11-17 16:42:39 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 16:42:39 - 1 tickets sold. Remaining tickets: 98
-2024-11-17 16:42:39 - Customer retrieved 1 tickets. Tickets remaining: 98
-2024-11-17 16:42:40 - Cannot add 20 tickets. Max capacity reached. Tickets available: 98
-2024-11-17 16:42:40 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 16:42:40 - 1 tickets sold. Remaining tickets: 97
-2024-11-17 16:42:40 - Customer retrieved 1 tickets. Tickets remaining: 97
-2024-11-17 16:42:41 - Cannot add 20 tickets. Max capacity reached. Tickets available: 97
-2024-11-17 16:42:41 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 16:42:41 - 1 tickets sold. Remaining tickets: 96
-2024-11-17 16:42:41 - Customer retrieved 1 tickets. Tickets remaining: 96
-2024-11-17 16:42:42 - Cannot add 20 tickets. Max capacity reached. Tickets available: 96
-2024-11-17 16:42:42 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 16:42:42 - 1 tickets sold. Remaining tickets: 95
-2024-11-17 16:42:42 - Customer retrieved 1 tickets. Tickets remaining: 95
-2024-11-17 16:42:43 - Cannot add 20 tickets. Max capacity reached. Tickets available: 95
-2024-11-17 16:42:43 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 16:42:43 - 1 tickets sold. Remaining tickets: 94
-2024-11-17 16:42:43 - Customer retrieved 1 tickets. Tickets remaining: 94
-2024-11-17 16:42:44 - Cannot add 20 tickets. Max capacity reached. Tickets available: 94
-2024-11-17 16:42:44 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 16:42:44 - 1 tickets sold. Remaining tickets: 93
-2024-11-17 16:42:44 - Customer retrieved 1 tickets. Tickets remaining: 93
-2024-11-17 16:42:45 - Cannot add 20 tickets. Max capacity reached. Tickets available: 93
-2024-11-17 16:42:45 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 16:42:45 - 1 tickets sold. Remaining tickets: 92
-2024-11-17 16:42:45 - Customer retrieved 1 tickets. Tickets remaining: 92
-2024-11-17 16:42:46 - Cannot add 20 tickets. Max capacity reached. Tickets available: 92
-2024-11-17 16:42:46 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 16:42:46 - 1 tickets sold. Remaining tickets: 91
-2024-11-17 16:42:46 - Customer retrieved 1 tickets. Tickets remaining: 91
-2024-11-17 16:42:47 - Cannot add 20 tickets. Max capacity reached. Tickets available: 91
-2024-11-17 16:42:47 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 16:42:47 - 1 tickets sold. Remaining tickets: 90
-2024-11-17 16:42:47 - Customer retrieved 1 tickets. Tickets remaining: 90
-2024-11-17 16:42:48 - Cannot add 20 tickets. Max capacity reached. Tickets available: 90
-2024-11-17 16:42:48 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 16:42:48 - 1 tickets sold. Remaining tickets: 89
-2024-11-17 16:42:48 - Customer retrieved 1 tickets. Tickets remaining: 89
-2024-11-17 16:42:49 - Cannot add 20 tickets. Max capacity reached. Tickets available: 89
-2024-11-17 16:42:49 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 16:42:49 - 1 tickets sold. Remaining tickets: 88
-2024-11-17 16:42:49 - Customer retrieved 1 tickets. Tickets remaining: 88
-2024-11-17 16:42:50 - Cannot add 20 tickets. Max capacity reached. Tickets available: 88
-2024-11-17 16:42:50 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 16:42:50 - 1 tickets sold. Remaining tickets: 87
-2024-11-17 16:42:50 - Customer retrieved 1 tickets. Tickets remaining: 87
-2024-11-17 16:42:51 - Cannot add 20 tickets. Max capacity reached. Tickets available: 87
-2024-11-17 16:42:51 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 16:42:51 - 1 tickets sold. Remaining tickets: 86
-2024-11-17 16:42:51 - Customer retrieved 1 tickets. Tickets remaining: 86
-2024-11-17 16:42:52 - Cannot add 20 tickets. Max capacity reached. Tickets available: 86
-2024-11-17 16:42:52 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 16:42:52 - 1 tickets sold. Remaining tickets: 85
-2024-11-17 16:42:52 - Customer retrieved 1 tickets. Tickets remaining: 85
-2024-11-17 16:42:53 - Cannot add 20 tickets. Max capacity reached. Tickets available: 85
-2024-11-17 16:42:53 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 16:42:53 - 1 tickets sold. Remaining tickets: 84
-2024-11-17 16:42:53 - Customer retrieved 1 tickets. Tickets remaining: 84
-2024-11-17 16:42:54 - Cannot add 20 tickets. Max capacity reached. Tickets available: 84
-2024-11-17 16:42:54 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 16:42:54 - 1 tickets sold. Remaining tickets: 83
-2024-11-17 16:42:54 - Customer retrieved 1 tickets. Tickets remaining: 83
-2024-11-17 16:42:55 - Cannot add 20 tickets. Max capacity reached. Tickets available: 83
-2024-11-17 16:42:55 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 16:42:55 - 1 tickets sold. Remaining tickets: 82
-2024-11-17 16:42:55 - Customer retrieved 1 tickets. Tickets remaining: 82
-2024-11-17 16:42:56 - Cannot add 20 tickets. Max capacity reached. Tickets available: 82
-2024-11-17 16:42:56 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 16:42:56 - 1 tickets sold. Remaining tickets: 81
-2024-11-17 16:42:56 - Customer retrieved 1 tickets. Tickets remaining: 81
-2024-11-17 16:42:57 - Cannot add 20 tickets. Max capacity reached. Tickets available: 81
-2024-11-17 16:42:57 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 16:42:57 - 1 tickets sold. Remaining tickets: 80
-2024-11-17 16:42:57 - Customer retrieved 1 tickets. Tickets remaining: 80
-2024-11-17 16:42:58 - 20 tickets added. Total tickets now: 100
-2024-11-17 16:42:58 - 1 tickets sold. Remaining tickets: 99
-2024-11-17 16:42:58 - Customer retrieved 1 tickets. Tickets remaining: 99
-2024-11-17 16:42:59 - Cannot add 20 tickets. Max capacity reached. Tickets available: 99
-2024-11-17 16:42:59 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 16:42:59 - 1 tickets sold. Remaining tickets: 98
-2024-11-17 16:42:59 - Customer retrieved 1 tickets. Tickets remaining: 98
-2024-11-17 16:43:00 - Cannot add 20 tickets. Max capacity reached. Tickets available: 98
-2024-11-17 16:43:00 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 16:43:00 - 1 tickets sold. Remaining tickets: 97
-2024-11-17 16:43:00 - Customer retrieved 1 tickets. Tickets remaining: 97
-2024-11-17 16:43:01 - Cannot add 20 tickets. Max capacity reached. Tickets available: 97
-2024-11-17 16:43:01 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 16:43:01 - 1 tickets sold. Remaining tickets: 96
-2024-11-17 16:43:01 - Customer retrieved 1 tickets. Tickets remaining: 96
-2024-11-17 17:13:55 - 5 tickets added. Total tickets now: 55
-2024-11-17 17:13:55 - 1 tickets sold. Remaining tickets: 54
-2024-11-17 17:13:55 - Customer retrieved 1 tickets. Tickets remaining: 54
-2024-11-17 17:13:56 - 1 tickets sold. Remaining tickets: 53
-2024-11-17 17:13:56 - Customer retrieved 1 tickets. Tickets remaining: 53
-2024-11-17 17:13:56 - 5 tickets added. Total tickets now: 58
-2024-11-17 17:13:57 - Cannot add 5 tickets. Max capacity reached. Tickets available: 58
-2024-11-17 17:13:57 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 17:13:57 - 1 tickets sold. Remaining tickets: 57
-2024-11-17 17:13:57 - Customer retrieved 1 tickets. Tickets remaining: 57
-2024-11-17 17:13:58 - Cannot add 5 tickets. Max capacity reached. Tickets available: 57
-2024-11-17 17:13:58 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 17:13:58 - 1 tickets sold. Remaining tickets: 56
-2024-11-17 17:13:58 - Customer retrieved 1 tickets. Tickets remaining: 56
-2024-11-17 17:13:59 - Cannot add 5 tickets. Max capacity reached. Tickets available: 56
-2024-11-17 17:13:59 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 17:13:59 - 1 tickets sold. Remaining tickets: 55
-2024-11-17 17:13:59 - Customer retrieved 1 tickets. Tickets remaining: 55
-2024-11-17 17:14:00 - 5 tickets added. Total tickets now: 60
-2024-11-17 17:14:00 - 1 tickets sold. Remaining tickets: 59
-2024-11-17 17:14:00 - Customer retrieved 1 tickets. Tickets remaining: 59
-2024-11-17 17:14:01 - Cannot add 5 tickets. Max capacity reached. Tickets available: 59
-2024-11-17 17:14:01 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 17:14:01 - 1 tickets sold. Remaining tickets: 58
-2024-11-17 17:14:01 - Customer retrieved 1 tickets. Tickets remaining: 58
-2024-11-17 17:14:02 - Cannot add 5 tickets. Max capacity reached. Tickets available: 58
-2024-11-17 17:14:02 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 17:14:02 - 1 tickets sold. Remaining tickets: 57
-2024-11-17 17:14:02 - Customer retrieved 1 tickets. Tickets remaining: 57
-2024-11-17 17:14:03 - Cannot add 5 tickets. Max capacity reached. Tickets available: 57
-2024-11-17 17:14:03 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 17:14:03 - 1 tickets sold. Remaining tickets: 56
-2024-11-17 17:14:03 - Customer retrieved 1 tickets. Tickets remaining: 56
-2024-11-17 17:14:04 - Cannot add 5 tickets. Max capacity reached. Tickets available: 56
-2024-11-17 17:14:04 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 17:14:04 - 1 tickets sold. Remaining tickets: 55
-2024-11-17 17:14:04 - Customer retrieved 1 tickets. Tickets remaining: 55
-2024-11-17 17:14:05 - 5 tickets added. Total tickets now: 60
-2024-11-17 17:14:05 - 1 tickets sold. Remaining tickets: 59
-2024-11-17 17:14:05 - Customer retrieved 1 tickets. Tickets remaining: 59
-2024-11-17 17:14:06 - Cannot add 5 tickets. Max capacity reached. Tickets available: 59
-2024-11-17 17:14:06 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 17:14:06 - 1 tickets sold. Remaining tickets: 58
-2024-11-17 17:14:06 - Customer retrieved 1 tickets. Tickets remaining: 58
-2024-11-17 17:14:07 - Cannot add 5 tickets. Max capacity reached. Tickets available: 58
-2024-11-17 17:14:07 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 17:14:07 - 1 tickets sold. Remaining tickets: 57
-2024-11-17 17:14:07 - Customer retrieved 1 tickets. Tickets remaining: 57
-2024-11-17 17:14:08 - Cannot add 5 tickets. Max capacity reached. Tickets available: 57
-2024-11-17 17:14:08 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 17:14:08 - 1 tickets sold. Remaining tickets: 56
-2024-11-17 17:14:08 - Customer retrieved 1 tickets. Tickets remaining: 56
-2024-11-17 17:14:09 - Cannot add 5 tickets. Max capacity reached. Tickets available: 56
-2024-11-17 17:14:09 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 17:14:09 - 1 tickets sold. Remaining tickets: 55
-2024-11-17 17:14:09 - Customer retrieved 1 tickets. Tickets remaining: 55
-2024-11-17 17:14:10 - 5 tickets added. Total tickets now: 60
-2024-11-17 17:14:10 - 1 tickets sold. Remaining tickets: 59
-2024-11-17 17:14:10 - Customer retrieved 1 tickets. Tickets remaining: 59
-2024-11-17 17:14:11 - Cannot add 5 tickets. Max capacity reached. Tickets available: 59
-2024-11-17 17:14:11 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 17:14:11 - 1 tickets sold. Remaining tickets: 58
-2024-11-17 17:14:11 - Customer retrieved 1 tickets. Tickets remaining: 58
-2024-11-17 17:14:12 - Cannot add 5 tickets. Max capacity reached. Tickets available: 58
-2024-11-17 17:14:12 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 17:14:12 - 1 tickets sold. Remaining tickets: 57
-2024-11-17 17:14:12 - Customer retrieved 1 tickets. Tickets remaining: 57
-2024-11-17 17:15:42 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:15:42 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:15:42 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:15:43 - 20 tickets sold. Remaining tickets: 80
-2024-11-17 17:15:43 - Customer retrieved 20 tickets. Tickets remaining: 80
-2024-11-17 17:15:43 - 20 tickets added. Total tickets now: 100
-2024-11-17 17:15:44 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:15:44 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:15:44 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:15:44 - 20 tickets sold. Remaining tickets: 80
-2024-11-17 17:15:44 - Customer retrieved 20 tickets. Tickets remaining: 80
-2024-11-17 17:15:44 - 20 tickets added. Total tickets now: 100
-2024-11-17 17:15:45 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:15:45 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:15:45 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:15:45 - 20 tickets sold. Remaining tickets: 80
-2024-11-17 17:15:45 - Customer retrieved 20 tickets. Tickets remaining: 80
-2024-11-17 17:15:45 - 20 tickets added. Total tickets now: 100
-2024-11-17 17:15:46 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:15:46 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:15:46 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:15:46 - 20 tickets sold. Remaining tickets: 80
-2024-11-17 17:15:46 - Customer retrieved 20 tickets. Tickets remaining: 80
-2024-11-17 17:15:46 - 20 tickets added. Total tickets now: 100
-2024-11-17 17:15:47 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:15:47 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:15:47 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:15:47 - 20 tickets sold. Remaining tickets: 80
-2024-11-17 17:15:47 - Customer retrieved 20 tickets. Tickets remaining: 80
-2024-11-17 17:15:47 - 20 tickets added. Total tickets now: 100
-2024-11-17 17:15:48 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:15:48 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:15:48 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:15:48 - 20 tickets sold. Remaining tickets: 80
-2024-11-17 17:15:48 - Customer retrieved 20 tickets. Tickets remaining: 80
-2024-11-17 17:15:48 - 20 tickets added. Total tickets now: 100
-2024-11-17 17:15:49 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:15:49 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:15:49 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:15:49 - 20 tickets sold. Remaining tickets: 80
-2024-11-17 17:15:49 - Customer retrieved 20 tickets. Tickets remaining: 80
-2024-11-17 17:15:49 - 20 tickets added. Total tickets now: 100
-2024-11-17 17:15:49 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:15:49 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:15:49 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:15:50 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:15:50 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:15:50 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:15:50 - 20 tickets sold. Remaining tickets: 80
-2024-11-17 17:15:50 - Customer retrieved 20 tickets. Tickets remaining: 80
-2024-11-17 17:15:50 - 20 tickets added. Total tickets now: 100
-2024-11-17 17:15:50 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:15:50 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:15:50 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:15:51 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:15:51 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:15:51 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:15:51 - 20 tickets sold. Remaining tickets: 80
-2024-11-17 17:15:51 - Customer retrieved 20 tickets. Tickets remaining: 80
-2024-11-17 17:15:51 - 20 tickets added. Total tickets now: 100
-2024-11-17 17:15:51 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:15:51 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:15:51 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:15:52 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:15:52 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:15:52 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:15:52 - 20 tickets sold. Remaining tickets: 80
-2024-11-17 17:15:52 - Customer retrieved 20 tickets. Tickets remaining: 80
-2024-11-17 17:15:52 - 20 tickets added. Total tickets now: 100
-2024-11-17 17:15:52 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:15:52 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:15:52 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:15:53 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:15:53 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:15:53 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:15:53 - 20 tickets sold. Remaining tickets: 80
-2024-11-17 17:15:53 - Customer retrieved 20 tickets. Tickets remaining: 80
-2024-11-17 17:15:53 - 20 tickets added. Total tickets now: 100
-2024-11-17 17:15:53 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:15:53 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:15:53 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:15:54 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:15:54 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:15:54 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:15:54 - 20 tickets sold. Remaining tickets: 80
-2024-11-17 17:15:54 - Customer retrieved 20 tickets. Tickets remaining: 80
-2024-11-17 17:15:54 - 20 tickets added. Total tickets now: 100
-2024-11-17 17:15:54 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:15:54 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:15:54 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:15:55 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:15:55 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:15:55 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:15:55 - 20 tickets sold. Remaining tickets: 80
-2024-11-17 17:15:55 - Customer retrieved 20 tickets. Tickets remaining: 80
-2024-11-17 17:15:55 - 20 tickets added. Total tickets now: 100
-2024-11-17 17:15:55 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:15:55 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:15:55 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:15:56 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:15:56 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:15:56 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:15:56 - 20 tickets sold. Remaining tickets: 80
-2024-11-17 17:15:56 - Customer retrieved 20 tickets. Tickets remaining: 80
-2024-11-17 17:15:56 - 20 tickets added. Total tickets now: 100
-2024-11-17 17:15:56 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:15:56 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:15:56 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:15:57 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:15:57 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:15:57 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:15:57 - 20 tickets sold. Remaining tickets: 80
-2024-11-17 17:15:57 - Customer retrieved 20 tickets. Tickets remaining: 80
-2024-11-17 17:15:57 - 20 tickets added. Total tickets now: 100
-2024-11-17 17:15:57 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:15:57 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:15:57 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:15:58 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:15:58 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:15:58 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:15:58 - 20 tickets sold. Remaining tickets: 80
-2024-11-17 17:15:58 - Customer retrieved 20 tickets. Tickets remaining: 80
-2024-11-17 17:15:58 - 20 tickets added. Total tickets now: 100
-2024-11-17 17:15:58 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:15:58 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:15:58 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:15:59 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:15:59 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:15:59 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:15:59 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:15:59 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:15:59 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:15:59 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:15:59 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:15:59 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:00 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:00 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:00 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:00 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:00 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:00 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:00 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:00 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:00 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:01 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:01 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:01 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:01 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:01 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:01 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:01 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:01 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:02 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:02 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:02 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:02 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:02 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:02 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:02 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:02 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:03 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:03 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:03 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:03 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:03 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:03 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:03 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:03 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:03 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:04 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:04 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:04 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:04 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:04 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:04 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:04 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:04 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:04 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:05 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:05 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:05 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:05 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:05 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:05 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:05 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:05 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:05 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:06 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:06 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:06 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:06 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:06 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:06 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:06 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:06 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:06 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:07 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:07 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:07 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:07 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:07 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:07 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:07 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:07 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:07 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:08 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:08 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:08 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:08 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:08 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:08 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:08 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:08 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:08 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:09 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:09 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:09 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:09 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:09 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:09 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:09 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:09 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:10 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:10 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:10 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:10 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:10 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:10 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:10 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:10 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:10 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:11 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:11 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:11 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:11 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:11 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:11 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:11 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:11 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:11 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:12 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:12 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:12 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:12 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:12 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:12 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:12 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:12 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:12 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:13 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:13 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:13 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:13 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:13 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:13 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:13 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:13 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:13 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:14 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:14 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:14 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:14 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:14 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:14 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:14 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:14 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:14 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:15 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:15 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:15 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:15 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:15 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:15 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:15 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:15 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:15 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:16 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:16 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:16 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:16 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:16 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:16 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:16 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:16 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:16 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:17 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:17 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:17 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:17 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:17 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:17 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:17 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:17 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:17 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:18 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:18 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:18 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:18 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:18 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:18 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:18 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:18 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:18 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:19 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:19 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:19 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:19 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:19 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:19 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:19 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:19 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:19 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:20 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:20 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:20 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:20 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:20 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:20 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:20 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:20 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:20 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:21 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:21 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:21 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:21 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:21 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:21 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:21 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:21 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:21 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:22 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:22 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:22 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:22 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:22 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:22 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:22 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:22 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:22 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:23 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:23 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:23 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:23 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:23 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:23 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:23 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:23 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:23 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:24 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:24 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:24 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:24 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:24 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:24 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:24 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:24 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:24 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:25 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:25 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:25 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:25 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:25 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:25 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:25 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:25 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:25 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:26 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:26 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:26 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:26 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:26 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:26 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:26 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:26 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:26 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:27 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:27 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:27 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:27 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:27 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:27 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:27 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:27 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:27 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:28 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:28 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:28 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:28 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:28 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:28 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:28 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:28 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:28 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:29 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:29 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:29 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:29 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:29 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:29 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:29 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:29 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:29 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:30 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:30 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:30 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:30 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:30 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:30 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:30 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:30 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:30 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:31 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:31 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:31 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:31 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:31 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:31 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:31 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:31 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:31 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:32 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:32 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:32 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:32 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:32 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:32 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:32 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:32 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:32 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:33 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:33 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:33 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:33 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:33 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:33 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:33 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:34 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:34 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:34 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:34 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:34 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:34 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:34 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:34 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:34 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:35 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:35 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:35 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:35 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:35 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:35 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:35 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:35 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:35 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:36 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:36 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:36 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:36 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:36 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:36 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:36 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:36 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:36 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:37 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:37 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:37 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:37 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:37 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:37 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:37 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:37 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:37 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:38 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:38 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:38 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:38 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:38 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:38 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:38 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:38 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:38 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:39 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:39 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:39 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:39 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:39 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:39 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:39 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:39 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:39 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:40 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:40 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:40 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:40 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:40 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:40 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:40 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:40 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:40 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:41 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:41 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:41 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:41 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:41 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:41 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:41 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:41 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:41 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:42 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:42 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:42 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:42 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:42 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:42 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:42 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:42 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:42 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:43 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:43 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:43 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:43 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:43 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:43 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:43 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:43 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:43 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:44 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:44 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:44 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:44 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:44 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:44 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:44 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:44 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:44 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:45 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:45 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:45 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:45 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:45 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:45 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:45 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:46 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:46 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:46 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:46 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:46 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:46 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:46 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:46 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:46 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:47 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:47 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:47 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:47 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:47 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:47 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:47 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:47 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:47 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:48 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:48 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:48 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:48 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:48 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:48 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:48 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:48 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:48 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:49 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:49 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:49 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:49 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:49 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:49 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:49 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:49 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:49 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:50 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:50 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:50 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:50 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:50 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:50 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:50 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:50 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:50 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:51 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:51 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:51 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:51 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:51 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:51 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:51 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:51 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:51 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:52 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:52 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:52 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:52 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:52 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:52 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:52 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:52 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:52 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:53 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:53 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:53 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:53 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:53 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:53 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:53 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:53 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:53 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:54 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:54 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:54 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:54 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:54 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:54 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:54 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:54 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:55 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:55 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:55 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:55 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:55 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:55 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:55 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:55 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:55 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:56 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:56 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:56 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:56 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:56 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:56 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:56 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:56 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:56 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:57 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:57 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:57 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:57 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:57 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:57 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:57 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:57 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:57 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:58 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:58 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:58 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:58 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:58 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:58 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:58 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:58 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:58 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:59 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:16:59 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:16:59 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:16:59 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:59 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:59 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:16:59 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:16:59 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:16:59 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:17:00 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:17:00 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:17:00 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:17:00 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:17:00 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:17:00 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:17:00 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:17:00 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:17:00 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:17:01 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:17:01 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:17:01 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:17:01 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:17:01 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:17:01 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:17:01 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:17:01 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:17:01 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:17:02 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:17:02 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:17:02 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:17:02 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:17:02 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:17:02 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:17:02 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:17:02 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:17:02 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:17:03 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:17:03 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:17:03 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:17:03 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:17:03 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:17:03 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:17:03 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:17:03 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:17:03 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:17:04 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:17:04 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:17:04 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:17:04 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:17:04 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:17:04 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:17:04 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:17:04 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:17:05 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:17:05 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:17:05 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:17:05 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:17:05 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:17:05 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:17:05 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:17:05 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:17:05 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:17:06 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:17:06 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:17:06 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:17:06 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:17:06 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:17:06 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:17:06 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:17:06 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:17:06 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:17:07 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:17:07 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:17:07 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:17:07 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:17:07 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:17:07 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:17:07 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:17:07 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:17:07 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:17:08 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:17:08 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:17:08 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:17:08 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:17:08 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:17:08 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:17:08 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:17:08 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:17:08 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:17:09 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:17:09 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:17:09 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:17:09 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:17:09 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:17:09 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:17:09 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:17:09 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:17:09 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:17:10 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:17:10 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:17:10 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:17:10 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:17:10 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:17:10 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:17:10 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:17:10 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:17:10 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:17:11 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:17:11 - 20 tickets added. Total tickets now: 140
-2024-11-17 17:17:11 - 20 tickets sold. Remaining tickets: 120
-2024-11-17 17:17:11 - Customer retrieved 20 tickets. Tickets remaining: 120
-2024-11-17 17:17:11 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:17:11 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:17:11 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:17:11 - 20 tickets sold. Remaining tickets: 100
-2024-11-17 17:17:12 - Customer retrieved 20 tickets. Tickets remaining: 100
-2024-11-17 17:17:12 - 20 tickets added. Total tickets now: 120
-2024-11-17 17:26:03 - 2 tickets added. Total tickets now: 42
-2024-11-17 17:26:03 - 1 tickets sold. Remaining tickets: 41
-2024-11-17 17:26:03 - Customer retrieved 1 tickets. Tickets remaining: 41
-2024-11-17 17:26:04 - 2 tickets added. Total tickets now: 43
-2024-11-17 17:26:04 - 1 tickets sold. Remaining tickets: 42
-2024-11-17 17:26:04 - Customer retrieved 1 tickets. Tickets remaining: 42
-2024-11-17 17:26:05 - 2 tickets added. Total tickets now: 44
-2024-11-17 17:26:05 - 1 tickets sold. Remaining tickets: 43
-2024-11-17 17:26:05 - Customer retrieved 1 tickets. Tickets remaining: 43
-2024-11-17 17:26:06 - 2 tickets added. Total tickets now: 45
-2024-11-17 17:26:06 - 1 tickets sold. Remaining tickets: 44
-2024-11-17 17:26:06 - Customer retrieved 1 tickets. Tickets remaining: 44
-2024-11-17 17:26:07 - 2 tickets added. Total tickets now: 46
-2024-11-17 17:26:07 - 1 tickets sold. Remaining tickets: 45
-2024-11-17 17:26:07 - Customer retrieved 1 tickets. Tickets remaining: 45
-2024-11-17 17:26:08 - 2 tickets added. Total tickets now: 47
-2024-11-17 17:26:08 - 1 tickets sold. Remaining tickets: 46
-2024-11-17 17:26:08 - Customer retrieved 1 tickets. Tickets remaining: 46
-2024-11-17 17:26:09 - 2 tickets added. Total tickets now: 48
-2024-11-17 17:26:09 - 1 tickets sold. Remaining tickets: 47
-2024-11-17 17:26:09 - Customer retrieved 1 tickets. Tickets remaining: 47
-2024-11-17 17:26:10 - 2 tickets added. Total tickets now: 49
-2024-11-17 17:26:10 - 1 tickets sold. Remaining tickets: 48
-2024-11-17 17:26:10 - Customer retrieved 1 tickets. Tickets remaining: 48
-2024-11-17 17:26:11 - 2 tickets added. Total tickets now: 50
-2024-11-17 17:26:11 - 1 tickets sold. Remaining tickets: 49
-2024-11-17 17:26:11 - Customer retrieved 1 tickets. Tickets remaining: 49
-2024-11-17 17:26:16 - Cannot add 2 tickets. Max capacity reached. Tickets available: 49
-2024-11-17 17:26:16 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 17:26:16 - 1 tickets sold. Remaining tickets: 48
-2024-11-17 17:26:16 - Customer retrieved 1 tickets. Tickets remaining: 48
-2024-11-17 17:26:17 - 1 tickets sold. Remaining tickets: 47
-2024-11-17 17:26:17 - Customer retrieved 1 tickets. Tickets remaining: 47
-2024-11-17 17:26:17 - 2 tickets added. Total tickets now: 49
-2024-11-17 17:26:18 - 1 tickets sold. Remaining tickets: 48
-2024-11-17 17:26:18 - Customer retrieved 1 tickets. Tickets remaining: 48
-2024-11-17 17:26:18 - 2 tickets added. Total tickets now: 50
-2024-11-17 17:26:19 - 1 tickets sold. Remaining tickets: 49
-2024-11-17 17:26:19 - Customer retrieved 1 tickets. Tickets remaining: 49
-2024-11-17 17:26:19 - Cannot add 2 tickets. Max capacity reached. Tickets available: 49
-2024-11-17 17:26:19 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 17:26:20 - 1 tickets sold. Remaining tickets: 48
-2024-11-17 17:26:20 - Customer retrieved 1 tickets. Tickets remaining: 48
-2024-11-17 17:26:20 - 2 tickets added. Total tickets now: 50
-2024-11-17 17:26:21 - 1 tickets sold. Remaining tickets: 49
-2024-11-17 17:26:21 - Customer retrieved 1 tickets. Tickets remaining: 49
-2024-11-17 17:26:21 - Cannot add 2 tickets. Max capacity reached. Tickets available: 49
-2024-11-17 17:26:21 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 17:26:22 - 1 tickets sold. Remaining tickets: 48
-2024-11-17 17:26:22 - Customer retrieved 1 tickets. Tickets remaining: 48
-2024-11-17 17:26:22 - 2 tickets added. Total tickets now: 50
-2024-11-17 17:26:23 - 1 tickets sold. Remaining tickets: 49
-2024-11-17 17:26:23 - Customer retrieved 1 tickets. Tickets remaining: 49
-2024-11-17 17:26:23 - Cannot add 2 tickets. Max capacity reached. Tickets available: 49
-2024-11-17 17:26:23 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 17:26:24 - 1 tickets sold. Remaining tickets: 48
-2024-11-17 17:26:24 - Customer retrieved 1 tickets. Tickets remaining: 48
-2024-11-17 17:26:24 - 2 tickets added. Total tickets now: 50
-2024-11-17 17:26:25 - 1 tickets sold. Remaining tickets: 49
-2024-11-17 17:26:25 - Customer retrieved 1 tickets. Tickets remaining: 49
-2024-11-17 17:26:25 - Cannot add 2 tickets. Max capacity reached. Tickets available: 49
-2024-11-17 17:26:25 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 17:26:26 - 1 tickets sold. Remaining tickets: 48
-2024-11-17 17:26:26 - Customer retrieved 1 tickets. Tickets remaining: 48
-2024-11-17 17:26:26 - 2 tickets added. Total tickets now: 50
-2024-11-17 17:26:27 - 1 tickets sold. Remaining tickets: 49
-2024-11-17 17:26:27 - Customer retrieved 1 tickets. Tickets remaining: 49
-2024-11-17 17:26:27 - Cannot add 2 tickets. Max capacity reached. Tickets available: 49
-2024-11-17 17:26:27 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 17:26:28 - 1 tickets sold. Remaining tickets: 48
-2024-11-17 17:26:28 - Customer retrieved 1 tickets. Tickets remaining: 48
-2024-11-17 17:26:28 - 2 tickets added. Total tickets now: 50
-2024-11-17 17:26:29 - 1 tickets sold. Remaining tickets: 49
-2024-11-17 17:26:29 - Customer retrieved 1 tickets. Tickets remaining: 49
-2024-11-17 17:26:29 - Cannot add 2 tickets. Max capacity reached. Tickets available: 49
-2024-11-17 17:26:29 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 17:26:30 - 1 tickets sold. Remaining tickets: 48
-2024-11-17 17:26:30 - Customer retrieved 1 tickets. Tickets remaining: 48
-2024-11-17 17:26:30 - 2 tickets added. Total tickets now: 50
-2024-11-17 17:26:31 - 1 tickets sold. Remaining tickets: 49
-2024-11-17 17:26:31 - Customer retrieved 1 tickets. Tickets remaining: 49
-2024-11-17 17:26:31 - Cannot add 2 tickets. Max capacity reached. Tickets available: 49
-2024-11-17 17:26:31 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 17:26:32 - 1 tickets sold. Remaining tickets: 48
-2024-11-17 17:26:32 - Customer retrieved 1 tickets. Tickets remaining: 48
-2024-11-17 17:26:32 - 2 tickets added. Total tickets now: 50
-2024-11-17 17:26:33 - 1 tickets sold. Remaining tickets: 49
-2024-11-17 17:26:33 - Customer retrieved 1 tickets. Tickets remaining: 49
-2024-11-17 17:26:33 - Cannot add 2 tickets. Max capacity reached. Tickets available: 49
-2024-11-17 17:26:34 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 17:26:34 - 1 tickets sold. Remaining tickets: 48
-2024-11-17 17:26:34 - Customer retrieved 1 tickets. Tickets remaining: 48
-2024-11-17 17:26:35 - 2 tickets added. Total tickets now: 50
-2024-11-17 17:26:36 - 1 tickets sold. Remaining tickets: 49
-2024-11-17 17:26:36 - Customer retrieved 1 tickets. Tickets remaining: 49
-2024-11-17 17:26:36 - Cannot add 2 tickets. Max capacity reached. Tickets available: 49
-2024-11-17 17:26:36 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 17:26:37 - 1 tickets sold. Remaining tickets: 48
-2024-11-17 17:26:37 - Customer retrieved 1 tickets. Tickets remaining: 48
-2024-11-17 17:26:37 - 2 tickets added. Total tickets now: 50
-2024-11-17 17:26:49 - Cannot add 2 tickets. Max capacity reached. Tickets available: 50
-2024-11-17 17:26:49 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 17:26:49 - 1 tickets sold. Remaining tickets: 49
-2024-11-17 17:26:49 - Customer retrieved 1 tickets. Tickets remaining: 49
-2024-11-17 17:26:50 - Cannot add 2 tickets. Max capacity reached. Tickets available: 49
-2024-11-17 17:26:50 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 17:26:50 - 1 tickets sold. Remaining tickets: 48
-2024-11-17 17:26:50 - Customer retrieved 1 tickets. Tickets remaining: 48
-2024-11-17 17:26:51 - 2 tickets added. Total tickets now: 50
-2024-11-17 17:26:51 - 1 tickets sold. Remaining tickets: 49
-2024-11-17 17:26:51 - Customer retrieved 1 tickets. Tickets remaining: 49
-2024-11-17 17:26:52 - Cannot add 2 tickets. Max capacity reached. Tickets available: 49
-2024-11-17 17:26:52 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 17:26:52 - 1 tickets sold. Remaining tickets: 48
-2024-11-17 17:26:52 - Customer retrieved 1 tickets. Tickets remaining: 48
-2024-11-17 17:26:53 - 2 tickets added. Total tickets now: 50
-2024-11-17 17:26:53 - 1 tickets sold. Remaining tickets: 49
-2024-11-17 17:26:53 - Customer retrieved 1 tickets. Tickets remaining: 49
-2024-11-17 17:26:54 - Cannot add 2 tickets. Max capacity reached. Tickets available: 49
-2024-11-17 17:26:54 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 17:26:54 - 1 tickets sold. Remaining tickets: 48
-2024-11-17 17:26:54 - Customer retrieved 1 tickets. Tickets remaining: 48
-2024-11-17 17:26:55 - 2 tickets added. Total tickets now: 50
-2024-11-17 17:26:55 - 1 tickets sold. Remaining tickets: 49
-2024-11-17 17:26:55 - Customer retrieved 1 tickets. Tickets remaining: 49
-2024-11-17 17:26:56 - Cannot add 2 tickets. Max capacity reached. Tickets available: 49
-2024-11-17 17:26:56 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 17:26:56 - 1 tickets sold. Remaining tickets: 48
-2024-11-17 17:26:56 - Customer retrieved 1 tickets. Tickets remaining: 48
-2024-11-17 17:26:57 - 2 tickets added. Total tickets now: 50
-2024-11-17 17:26:57 - 1 tickets sold. Remaining tickets: 49
-2024-11-17 17:26:57 - Customer retrieved 1 tickets. Tickets remaining: 49
-2024-11-17 17:26:58 - Cannot add 2 tickets. Max capacity reached. Tickets available: 49
-2024-11-17 17:26:58 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 17:26:58 - 1 tickets sold. Remaining tickets: 48
-2024-11-17 17:26:58 - Customer retrieved 1 tickets. Tickets remaining: 48
-2024-11-17 17:27:29 - 10 tickets added. Total tickets now: 410
-2024-11-17 17:27:29 - 2 tickets sold. Remaining tickets: 408
-2024-11-17 17:27:29 - Customer retrieved 2 tickets. Tickets remaining: 408
-2024-11-17 17:27:30 - 2 tickets sold. Remaining tickets: 406
-2024-11-17 17:27:30 - 10 tickets added. Total tickets now: 416
-2024-11-17 17:27:30 - Customer retrieved 2 tickets. Tickets remaining: 416
-2024-11-17 17:27:31 - 10 tickets added. Total tickets now: 426
-2024-11-17 17:27:31 - 2 tickets sold. Remaining tickets: 424
-2024-11-17 17:27:31 - Customer retrieved 2 tickets. Tickets remaining: 424
-2024-11-17 17:27:32 - 10 tickets added. Total tickets now: 434
-2024-11-17 17:27:32 - 2 tickets sold. Remaining tickets: 432
-2024-11-17 17:27:32 - Customer retrieved 2 tickets. Tickets remaining: 432
-2024-11-17 17:27:33 - 10 tickets added. Total tickets now: 442
-2024-11-17 17:27:33 - 2 tickets sold. Remaining tickets: 440
-2024-11-17 17:27:33 - Customer retrieved 2 tickets. Tickets remaining: 440
-2024-11-17 17:27:34 - 10 tickets added. Total tickets now: 450
-2024-11-17 17:27:34 - 2 tickets sold. Remaining tickets: 448
-2024-11-17 17:27:34 - Customer retrieved 2 tickets. Tickets remaining: 448
-2024-11-17 17:27:35 - 10 tickets added. Total tickets now: 458
-2024-11-17 17:27:35 - 2 tickets sold. Remaining tickets: 456
-2024-11-17 17:27:35 - Customer retrieved 2 tickets. Tickets remaining: 456
-2024-11-17 17:27:40 - 10 tickets added. Total tickets now: 466
-2024-11-17 17:27:40 - 2 tickets sold. Remaining tickets: 464
-2024-11-17 17:27:40 - Customer retrieved 2 tickets. Tickets remaining: 464
-2024-11-17 17:27:41 - 10 tickets added. Total tickets now: 474
-2024-11-17 17:27:41 - 2 tickets sold. Remaining tickets: 472
-2024-11-17 17:27:41 - Customer retrieved 2 tickets. Tickets remaining: 472
-2024-11-17 17:27:42 - 10 tickets added. Total tickets now: 482
-2024-11-17 17:27:42 - 2 tickets sold. Remaining tickets: 480
-2024-11-17 17:27:42 - Customer retrieved 2 tickets. Tickets remaining: 480
-2024-11-17 18:07:11 - 100 tickets added. Total tickets now: 600
-2024-11-17 18:07:16 - 50 tickets sold. Remaining tickets: 550
-2024-11-17 18:07:16 - Customer retrieved 50 tickets. Tickets remaining: 550
-2024-11-17 18:12:06 - 100 tickets added. Total tickets now: 500
-2024-11-17 18:12:19 - 50 tickets sold. Remaining tickets: 450
-2024-11-17 18:12:20 - Customer retrieved 50 tickets. Tickets remaining: 450
-2024-11-17 18:12:23 - 50 tickets sold. Remaining tickets: 400
-2024-11-17 18:12:27 - Customer retrieved 50 tickets. Tickets remaining: 400
-2024-11-17 18:12:27 - 100 tickets added. Total tickets now: 500
-2024-11-17 18:22:49 - 5 tickets added. Total tickets now: 55
-2024-11-17 18:22:49 - 1 tickets sold. Remaining tickets: 54
-2024-11-17 18:22:49 - Customer retrieved 1 tickets. Tickets remaining: 54
-2024-11-17 18:22:50 - 1 tickets sold. Remaining tickets: 53
-2024-11-17 18:22:50 - Customer retrieved 1 tickets. Tickets remaining: 53
-2024-11-17 18:22:50 - 5 tickets added. Total tickets now: 58
-2024-11-17 18:22:51 - 1 tickets sold. Remaining tickets: 57
-2024-11-17 18:22:51 - Customer retrieved 1 tickets. Tickets remaining: 57
-2024-11-17 18:22:51 - Cannot add 5 tickets. Max capacity reached. Tickets available: 57
-2024-11-17 18:22:51 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 18:22:52 - 1 tickets sold. Remaining tickets: 56
-2024-11-17 18:22:52 - Customer retrieved 1 tickets. Tickets remaining: 56
-2024-11-17 18:22:52 - Cannot add 5 tickets. Max capacity reached. Tickets available: 56
-2024-11-17 18:22:52 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 18:22:53 - 1 tickets sold. Remaining tickets: 55
-2024-11-17 18:22:53 - Customer retrieved 1 tickets. Tickets remaining: 55
-2024-11-17 18:22:54 - 5 tickets added. Total tickets now: 60
-2024-11-17 18:22:55 - 1 tickets sold. Remaining tickets: 59
-2024-11-17 18:22:55 - Customer retrieved 1 tickets. Tickets remaining: 59
-2024-11-17 18:22:55 - Cannot add 5 tickets. Max capacity reached. Tickets available: 59
-2024-11-17 18:22:55 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 18:22:56 - 1 tickets sold. Remaining tickets: 58
-2024-11-17 18:22:56 - Customer retrieved 1 tickets. Tickets remaining: 58
-2024-11-17 18:22:56 - Cannot add 5 tickets. Max capacity reached. Tickets available: 58
-2024-11-17 18:22:56 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 18:22:57 - 1 tickets sold. Remaining tickets: 57
-2024-11-17 18:22:57 - Customer retrieved 1 tickets. Tickets remaining: 57
-2024-11-17 18:22:57 - Cannot add 5 tickets. Max capacity reached. Tickets available: 57
-2024-11-17 18:22:57 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 18:22:58 - 1 tickets sold. Remaining tickets: 56
-2024-11-17 18:22:58 - Customer retrieved 1 tickets. Tickets remaining: 56
-2024-11-17 18:22:58 - Cannot add 5 tickets. Max capacity reached. Tickets available: 56
-2024-11-17 18:22:58 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 18:22:59 - 1 tickets sold. Remaining tickets: 55
-2024-11-17 18:22:59 - Customer retrieved 1 tickets. Tickets remaining: 55
-2024-11-17 18:22:59 - 5 tickets added. Total tickets now: 60
-2024-11-17 18:24:37 - 5 tickets added. Total tickets now: 55
-2024-11-17 18:24:37 - 1 tickets sold. Remaining tickets: 54
-2024-11-17 18:24:37 - Customer retrieved 1 tickets. Tickets remaining: 54
-2024-11-17 18:24:38 - 5 tickets added. Total tickets now: 59
-2024-11-17 18:24:38 - 1 tickets sold. Remaining tickets: 58
-2024-11-17 18:24:38 - Customer retrieved 1 tickets. Tickets remaining: 58
-2024-11-17 18:24:39 - Cannot add 5 tickets. Max capacity reached. Tickets available: 58
-2024-11-17 18:24:39 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 18:24:39 - 1 tickets sold. Remaining tickets: 57
-2024-11-17 18:24:39 - Customer retrieved 1 tickets. Tickets remaining: 57
-2024-11-17 18:24:40 - Cannot add 5 tickets. Max capacity reached. Tickets available: 57
-2024-11-17 18:24:40 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 18:24:40 - 1 tickets sold. Remaining tickets: 56
-2024-11-17 18:24:40 - Customer retrieved 1 tickets. Tickets remaining: 56
-2024-11-17 18:24:41 - Cannot add 5 tickets. Max capacity reached. Tickets available: 56
-2024-11-17 18:24:41 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 18:24:41 - 1 tickets sold. Remaining tickets: 55
-2024-11-17 18:24:41 - Customer retrieved 1 tickets. Tickets remaining: 55
-2024-11-17 18:24:42 - 5 tickets added. Total tickets now: 60
-2024-11-17 18:24:42 - 1 tickets sold. Remaining tickets: 59
-2024-11-17 18:24:42 - Customer retrieved 1 tickets. Tickets remaining: 59
-2024-11-17 18:24:43 - Cannot add 5 tickets. Max capacity reached. Tickets available: 59
-2024-11-17 18:24:43 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 18:24:43 - 1 tickets sold. Remaining tickets: 58
-2024-11-17 18:24:43 - Customer retrieved 1 tickets. Tickets remaining: 58
-2024-11-17 18:24:44 - Cannot add 5 tickets. Max capacity reached. Tickets available: 58
-2024-11-17 18:24:44 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 18:24:44 - 1 tickets sold. Remaining tickets: 57
-2024-11-17 18:24:44 - Customer retrieved 1 tickets. Tickets remaining: 57
-2024-11-17 19:05:39 - 100 tickets added. Total tickets now: 600
-2024-11-17 19:05:39 - 100 tickets added. Total tickets now: 700
-2024-11-17 19:05:39 - 10 tickets sold. Remaining tickets: 690
-2024-11-17 19:05:39 - 10 tickets sold. Remaining tickets: 680
-2024-11-17 19:05:39 - Customer retrieved 10 tickets. Tickets remaining: 680
-2024-11-17 19:05:39 - Customer retrieved 10 tickets. Tickets remaining: 690
-2024-11-17 19:05:40 - 100 tickets added. Total tickets now: 780
-2024-11-17 19:05:40 - Cannot add 100 tickets. Max capacity reached. Tickets available: 780
-2024-11-17 19:05:40 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 19:05:40 - 10 tickets sold. Remaining tickets: 770
-2024-11-17 19:05:40 - Customer retrieved 10 tickets. Tickets remaining: 770
-2024-11-17 19:05:40 - 10 tickets sold. Remaining tickets: 760
-2024-11-17 19:05:40 - Customer retrieved 10 tickets. Tickets remaining: 760
-2024-11-17 19:05:41 - Cannot add 100 tickets. Max capacity reached. Tickets available: 760
-2024-11-17 19:05:41 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 19:05:41 - Cannot add 100 tickets. Max capacity reached. Tickets available: 760
-2024-11-17 19:05:41 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 19:05:41 - 10 tickets sold. Remaining tickets: 750
-2024-11-17 19:05:41 - Customer retrieved 10 tickets. Tickets remaining: 750
-2024-11-17 19:05:41 - 10 tickets sold. Remaining tickets: 740
-2024-11-17 19:05:41 - Customer retrieved 10 tickets. Tickets remaining: 740
-2024-11-17 19:05:42 - Cannot add 100 tickets. Max capacity reached. Tickets available: 740
-2024-11-17 19:05:42 - Cannot add 100 tickets. Max capacity reached. Tickets available: 740
-2024-11-17 19:05:42 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 19:05:42 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 19:05:42 - 10 tickets sold. Remaining tickets: 730
-2024-11-17 19:05:42 - Customer retrieved 10 tickets. Tickets remaining: 730
-2024-11-17 19:05:42 - 10 tickets sold. Remaining tickets: 720
-2024-11-17 19:05:42 - Customer retrieved 10 tickets. Tickets remaining: 720
-2024-11-17 19:05:43 - Cannot add 100 tickets. Max capacity reached. Tickets available: 720
-2024-11-17 19:05:43 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 19:05:43 - 10 tickets sold. Remaining tickets: 710
-2024-11-17 19:05:43 - Customer retrieved 10 tickets. Tickets remaining: 710
-2024-11-17 19:05:43 - Cannot add 100 tickets. Max capacity reached. Tickets available: 710
-2024-11-17 19:05:43 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 19:05:43 - 10 tickets sold. Remaining tickets: 700
-2024-11-17 19:05:43 - Customer retrieved 10 tickets. Tickets remaining: 700
-2024-11-17 19:05:44 - 100 tickets added. Total tickets now: 800
-2024-11-17 19:05:44 - 10 tickets sold. Remaining tickets: 790
-2024-11-17 19:05:44 - Customer retrieved 10 tickets. Tickets remaining: 790
-2024-11-17 19:05:44 - Cannot add 100 tickets. Max capacity reached. Tickets available: 790
-2024-11-17 19:05:44 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 19:05:44 - 10 tickets sold. Remaining tickets: 780
-2024-11-17 19:05:44 - Customer retrieved 10 tickets. Tickets remaining: 780
-2024-11-17 19:37:23 - 5 tickets added. Total tickets now: 55
-2024-11-17 19:37:23 - 1 tickets sold. Remaining tickets: 54
-2024-11-17 19:37:23 - Customer retrieved 1 tickets. Tickets remaining: 54
-2024-11-17 19:37:24 - 5 tickets added. Total tickets now: 59
-2024-11-17 19:37:24 - 1 tickets sold. Remaining tickets: 58
-2024-11-17 19:37:24 - Customer retrieved 1 tickets. Tickets remaining: 58
-2024-11-17 19:37:25 - 5 tickets added. Total tickets now: 63
-2024-11-17 19:37:25 - 1 tickets sold. Remaining tickets: 62
-2024-11-17 19:37:25 - Customer retrieved 1 tickets. Tickets remaining: 62
-2024-11-17 19:37:26 - Vendor stopping as max capacity is reached.
-2024-11-17 19:37:26 - 1 tickets sold. Remaining tickets: 61
-2024-11-17 19:37:26 - Customer retrieved 1 tickets. Tickets remaining: 61
-2024-11-17 19:37:27 - Vendor stopping as max capacity is reached.
-2024-11-17 19:37:27 - 1 tickets sold. Remaining tickets: 60
-2024-11-17 19:37:27 - Customer retrieved 1 tickets. Tickets remaining: 60
-2024-11-17 19:37:28 - Vendor stopping as max capacity is reached.
-2024-11-17 19:37:28 - 1 tickets sold. Remaining tickets: 59
-2024-11-17 19:37:28 - Customer retrieved 1 tickets. Tickets remaining: 59
-2024-11-17 19:37:29 - 5 tickets added. Total tickets now: 64
-2024-11-17 19:37:29 - 1 tickets sold. Remaining tickets: 63
-2024-11-17 19:37:29 - Customer retrieved 1 tickets. Tickets remaining: 63
-2024-11-17 19:37:30 - Vendor stopping as max capacity is reached.
-2024-11-17 19:37:30 - 1 tickets sold. Remaining tickets: 62
-2024-11-17 19:37:30 - Customer retrieved 1 tickets. Tickets remaining: 62
-2024-11-17 19:40:57 - 100 tickets added. Total tickets now: 500
-2024-11-17 19:40:57 - 100 tickets added. Total tickets now: 600
-2024-11-17 19:40:57 - 5 tickets sold. Remaining tickets: 595
-2024-11-17 19:40:57 - 5 tickets sold. Remaining tickets: 590
-2024-11-17 19:40:57 - Customer retrieved 5 tickets. Tickets remaining: 590
-2024-11-17 19:40:57 - Customer retrieved 5 tickets. Tickets remaining: 595
-2024-11-17 19:40:57 - 5 tickets sold. Remaining tickets: 585
-2024-11-17 19:40:57 - Customer retrieved 5 tickets. Tickets remaining: 585
-2024-11-17 19:40:57 - 5 tickets sold. Remaining tickets: 580
-2024-11-17 19:40:57 - Customer retrieved 5 tickets. Tickets remaining: 580
-2024-11-17 19:40:57 - 5 tickets sold. Remaining tickets: 575
-2024-11-17 19:40:57 - Customer retrieved 5 tickets. Tickets remaining: 575
-2024-11-17 19:40:57 - 5 tickets sold. Remaining tickets: 570
-2024-11-17 19:40:57 - Customer retrieved 5 tickets. Tickets remaining: 570
-2024-11-17 19:40:57 - 5 tickets sold. Remaining tickets: 565
-2024-11-17 19:40:57 - Customer retrieved 5 tickets. Tickets remaining: 565
-2024-11-17 19:40:57 - 5 tickets sold. Remaining tickets: 560
-2024-11-17 19:40:57 - Customer retrieved 5 tickets. Tickets remaining: 560
-2024-11-17 19:40:57 - 5 tickets sold. Remaining tickets: 555
-2024-11-17 19:40:57 - Customer retrieved 5 tickets. Tickets remaining: 555
-2024-11-17 19:40:57 - 5 tickets sold. Remaining tickets: 550
-2024-11-17 19:40:57 - Customer retrieved 5 tickets. Tickets remaining: 550
-2024-11-17 19:40:58 - Cannot add 100 tickets. Max capacity reached. Tickets available: 550
-2024-11-17 19:40:58 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 19:40:58 - Cannot add 100 tickets. Max capacity reached. Tickets available: 550
-2024-11-17 19:40:58 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 19:40:58 - 5 tickets sold. Remaining tickets: 545
-2024-11-17 19:40:58 - Customer retrieved 5 tickets. Tickets remaining: 545
-2024-11-17 19:40:58 - 5 tickets sold. Remaining tickets: 540
-2024-11-17 19:40:58 - Customer retrieved 5 tickets. Tickets remaining: 540
-2024-11-17 19:40:58 - 5 tickets sold. Remaining tickets: 535
-2024-11-17 19:40:58 - Customer retrieved 5 tickets. Tickets remaining: 535
-2024-11-17 19:40:58 - 5 tickets sold. Remaining tickets: 530
-2024-11-17 19:40:58 - Customer retrieved 5 tickets. Tickets remaining: 530
-2024-11-17 19:40:58 - 5 tickets sold. Remaining tickets: 525
-2024-11-17 19:40:58 - Customer retrieved 5 tickets. Tickets remaining: 525
-2024-11-17 19:40:58 - 5 tickets sold. Remaining tickets: 520
-2024-11-17 19:40:58 - Customer retrieved 5 tickets. Tickets remaining: 520
-2024-11-17 19:40:58 - 5 tickets sold. Remaining tickets: 515
-2024-11-17 19:40:58 - Customer retrieved 5 tickets. Tickets remaining: 515
-2024-11-17 19:40:58 - 5 tickets sold. Remaining tickets: 510
-2024-11-17 19:40:58 - Customer retrieved 5 tickets. Tickets remaining: 510
-2024-11-17 19:40:58 - 5 tickets sold. Remaining tickets: 505
-2024-11-17 19:40:58 - Customer retrieved 5 tickets. Tickets remaining: 505
-2024-11-17 19:40:58 - 5 tickets sold. Remaining tickets: 500
-2024-11-17 19:40:58 - Customer retrieved 5 tickets. Tickets remaining: 500
-2024-11-17 19:40:59 - 100 tickets added. Total tickets now: 600
-2024-11-17 19:40:59 - 5 tickets sold. Remaining tickets: 595
-2024-11-17 19:40:59 - Customer retrieved 5 tickets. Tickets remaining: 595
-2024-11-17 19:40:59 - Cannot add 100 tickets. Max capacity reached. Tickets available: 595
-2024-11-17 19:40:59 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 19:40:59 - 5 tickets sold. Remaining tickets: 590
-2024-11-17 19:40:59 - Customer retrieved 5 tickets. Tickets remaining: 590
-2024-11-17 19:40:59 - 5 tickets sold. Remaining tickets: 585
-2024-11-17 19:40:59 - Customer retrieved 5 tickets. Tickets remaining: 585
-2024-11-17 19:40:59 - 5 tickets sold. Remaining tickets: 580
-2024-11-17 19:40:59 - Customer retrieved 5 tickets. Tickets remaining: 580
-2024-11-17 19:40:59 - 5 tickets sold. Remaining tickets: 575
-2024-11-17 19:40:59 - Customer retrieved 5 tickets. Tickets remaining: 575
-2024-11-17 19:40:59 - 5 tickets sold. Remaining tickets: 570
-2024-11-17 19:40:59 - Customer retrieved 5 tickets. Tickets remaining: 570
-2024-11-17 19:40:59 - 5 tickets sold. Remaining tickets: 565
-2024-11-17 19:40:59 - Customer retrieved 5 tickets. Tickets remaining: 565
-2024-11-17 19:40:59 - 5 tickets sold. Remaining tickets: 560
-2024-11-17 19:40:59 - Customer retrieved 5 tickets. Tickets remaining: 560
-2024-11-17 19:40:59 - 5 tickets sold. Remaining tickets: 555
-2024-11-17 19:40:59 - Customer retrieved 5 tickets. Tickets remaining: 555
-2024-11-17 19:40:59 - 5 tickets sold. Remaining tickets: 550
-2024-11-17 19:40:59 - Customer retrieved 5 tickets. Tickets remaining: 550
-2024-11-17 19:41:00 - Cannot add 100 tickets. Max capacity reached. Tickets available: 550
-2024-11-17 19:41:00 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 19:41:00 - 5 tickets sold. Remaining tickets: 545
-2024-11-17 19:41:00 - Customer retrieved 5 tickets. Tickets remaining: 545
-2024-11-17 19:41:00 - 5 tickets sold. Remaining tickets: 540
-2024-11-17 19:41:00 - Customer retrieved 5 tickets. Tickets remaining: 540
-2024-11-17 19:41:00 - 5 tickets sold. Remaining tickets: 535
-2024-11-17 19:41:00 - Customer retrieved 5 tickets. Tickets remaining: 535
-2024-11-17 19:41:00 - 5 tickets sold. Remaining tickets: 530
-2024-11-17 19:41:00 - Customer retrieved 5 tickets. Tickets remaining: 530
-2024-11-17 19:41:00 - 5 tickets sold. Remaining tickets: 525
-2024-11-17 19:41:00 - Customer retrieved 5 tickets. Tickets remaining: 525
-2024-11-17 19:41:00 - Cannot add 100 tickets. Max capacity reached. Tickets available: 525
-2024-11-17 19:41:00 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 19:41:00 - 5 tickets sold. Remaining tickets: 520
-2024-11-17 19:41:00 - Customer retrieved 5 tickets. Tickets remaining: 520
-2024-11-17 19:41:00 - 5 tickets sold. Remaining tickets: 515
-2024-11-17 19:41:00 - Customer retrieved 5 tickets. Tickets remaining: 515
-2024-11-17 19:41:00 - 5 tickets sold. Remaining tickets: 510
-2024-11-17 19:41:00 - Customer retrieved 5 tickets. Tickets remaining: 510
-2024-11-17 19:41:00 - 5 tickets sold. Remaining tickets: 505
-2024-11-17 19:41:00 - Customer retrieved 5 tickets. Tickets remaining: 505
-2024-11-17 19:41:00 - 5 tickets sold. Remaining tickets: 500
-2024-11-17 19:41:00 - Customer retrieved 5 tickets. Tickets remaining: 500
-2024-11-17 19:41:42 - 100 tickets added. Total tickets now: 600
-2024-11-17 19:41:42 - Cannot add 100 tickets. Max capacity reached. Tickets available: 600
-2024-11-17 19:41:42 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 19:41:42 - 5 tickets sold. Remaining tickets: 595
-2024-11-17 19:41:42 - Customer retrieved 5 tickets. Tickets remaining: 595
-2024-11-17 19:41:42 - 5 tickets sold. Remaining tickets: 590
-2024-11-17 19:41:42 - Customer retrieved 5 tickets. Tickets remaining: 590
-2024-11-17 19:41:42 - 5 tickets sold. Remaining tickets: 585
-2024-11-17 19:41:42 - Customer retrieved 5 tickets. Tickets remaining: 585
-2024-11-17 19:41:42 - 5 tickets sold. Remaining tickets: 580
-2024-11-17 19:41:42 - Customer retrieved 5 tickets. Tickets remaining: 580
-2024-11-17 19:41:42 - 5 tickets sold. Remaining tickets: 575
-2024-11-17 19:41:42 - Customer retrieved 5 tickets. Tickets remaining: 575
-2024-11-17 19:41:42 - 5 tickets sold. Remaining tickets: 570
-2024-11-17 19:41:42 - Customer retrieved 5 tickets. Tickets remaining: 570
-2024-11-17 19:41:42 - 5 tickets sold. Remaining tickets: 565
-2024-11-17 19:41:42 - Customer retrieved 5 tickets. Tickets remaining: 565
-2024-11-17 19:41:43 - 5 tickets sold. Remaining tickets: 560
-2024-11-17 19:41:43 - Customer retrieved 5 tickets. Tickets remaining: 560
-2024-11-17 19:41:43 - 5 tickets sold. Remaining tickets: 555
-2024-11-17 19:41:43 - Customer retrieved 5 tickets. Tickets remaining: 555
-2024-11-17 19:41:43 - 5 tickets sold. Remaining tickets: 550
-2024-11-17 19:41:43 - Customer retrieved 5 tickets. Tickets remaining: 550
-2024-11-17 19:41:43 - Cannot add 100 tickets. Max capacity reached. Tickets available: 550
-2024-11-17 19:41:43 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 19:41:43 - Cannot add 100 tickets. Max capacity reached. Tickets available: 550
-2024-11-17 19:41:43 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 19:41:43 - 5 tickets sold. Remaining tickets: 545
-2024-11-17 19:41:43 - Customer retrieved 5 tickets. Tickets remaining: 545
-2024-11-17 19:41:43 - 5 tickets sold. Remaining tickets: 540
-2024-11-17 19:41:43 - Customer retrieved 5 tickets. Tickets remaining: 540
-2024-11-17 19:41:43 - 5 tickets sold. Remaining tickets: 535
-2024-11-17 19:41:43 - 5 tickets sold. Remaining tickets: 530
-2024-11-17 19:41:43 - Customer retrieved 5 tickets. Tickets remaining: 530
-2024-11-17 19:41:44 - 5 tickets sold. Remaining tickets: 525
-2024-11-17 19:41:44 - Customer retrieved 5 tickets. Tickets remaining: 525
-2024-11-17 19:41:44 - Customer retrieved 5 tickets. Tickets remaining: 525
-2024-11-17 19:41:44 - 5 tickets sold. Remaining tickets: 520
-2024-11-17 19:41:44 - Customer retrieved 5 tickets. Tickets remaining: 520
-2024-11-17 19:41:44 - 5 tickets sold. Remaining tickets: 515
-2024-11-17 19:41:44 - Customer retrieved 5 tickets. Tickets remaining: 515
-2024-11-17 19:41:44 - 5 tickets sold. Remaining tickets: 510
-2024-11-17 19:41:44 - Customer retrieved 5 tickets. Tickets remaining: 510
-2024-11-17 19:41:44 - 5 tickets sold. Remaining tickets: 505
-2024-11-17 19:41:44 - Customer retrieved 5 tickets. Tickets remaining: 505
-2024-11-17 19:41:44 - 5 tickets sold. Remaining tickets: 500
-2024-11-17 19:41:44 - Customer retrieved 5 tickets. Tickets remaining: 500
-2024-11-17 19:41:44 - 100 tickets added. Total tickets now: 600
-2024-11-17 19:41:44 - Cannot add 100 tickets. Max capacity reached. Tickets available: 600
-2024-11-17 19:41:44 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 19:41:44 - 5 tickets sold. Remaining tickets: 595
-2024-11-17 19:41:44 - Customer retrieved 5 tickets. Tickets remaining: 595
-2024-11-17 19:41:44 - 5 tickets sold. Remaining tickets: 590
-2024-11-17 19:41:44 - Customer retrieved 5 tickets. Tickets remaining: 590
-2024-11-17 19:41:45 - 5 tickets sold. Remaining tickets: 585
-2024-11-17 19:41:45 - Customer retrieved 5 tickets. Tickets remaining: 585
-2024-11-17 19:41:45 - 5 tickets sold. Remaining tickets: 580
-2024-11-17 19:41:45 - Customer retrieved 5 tickets. Tickets remaining: 580
-2024-11-17 19:41:45 - 5 tickets sold. Remaining tickets: 575
-2024-11-17 19:41:45 - Customer retrieved 5 tickets. Tickets remaining: 575
-2024-11-17 19:41:45 - 5 tickets sold. Remaining tickets: 570
-2024-11-17 19:41:45 - Customer retrieved 5 tickets. Tickets remaining: 570
-2024-11-17 19:41:45 - 5 tickets sold. Remaining tickets: 565
-2024-11-17 19:41:45 - Customer retrieved 5 tickets. Tickets remaining: 565
-2024-11-17 19:41:45 - 5 tickets sold. Remaining tickets: 560
-2024-11-17 19:41:45 - Customer retrieved 5 tickets. Tickets remaining: 560
-2024-11-17 19:41:45 - 5 tickets sold. Remaining tickets: 555
-2024-11-17 19:41:45 - Customer retrieved 5 tickets. Tickets remaining: 555
-2024-11-17 19:41:45 - 5 tickets sold. Remaining tickets: 550
-2024-11-17 19:41:45 - Customer retrieved 5 tickets. Tickets remaining: 550
-2024-11-17 19:41:45 - Cannot add 100 tickets. Max capacity reached. Tickets available: 550
-2024-11-17 19:41:45 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 19:41:45 - Cannot add 100 tickets. Max capacity reached. Tickets available: 550
-2024-11-17 19:41:45 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 19:41:45 - 5 tickets sold. Remaining tickets: 545
-2024-11-17 19:41:45 - Customer retrieved 5 tickets. Tickets remaining: 545
-2024-11-17 19:41:46 - 5 tickets sold. Remaining tickets: 540
-2024-11-17 19:41:46 - Customer retrieved 5 tickets. Tickets remaining: 540
-2024-11-17 19:41:46 - 5 tickets sold. Remaining tickets: 535
-2024-11-17 19:41:46 - 5 tickets sold. Remaining tickets: 530
-2024-11-17 19:41:46 - Customer retrieved 5 tickets. Tickets remaining: 530
-2024-11-17 19:41:46 - Customer retrieved 5 tickets. Tickets remaining: 530
-2024-11-17 19:41:46 - 5 tickets sold. Remaining tickets: 525
-2024-11-17 19:41:46 - Customer retrieved 5 tickets. Tickets remaining: 525
-2024-11-17 19:41:46 - 5 tickets sold. Remaining tickets: 520
-2024-11-17 19:41:46 - 5 tickets sold. Remaining tickets: 515
-2024-11-17 19:41:46 - Customer retrieved 5 tickets. Tickets remaining: 515
-2024-11-17 19:41:46 - 5 tickets sold. Remaining tickets: 510
-2024-11-17 19:41:46 - Customer retrieved 5 tickets. Tickets remaining: 510
-2024-11-17 19:41:46 - Customer retrieved 5 tickets. Tickets remaining: 510
-2024-11-17 19:41:46 - 5 tickets sold. Remaining tickets: 505
-2024-11-17 19:41:46 - Customer retrieved 5 tickets. Tickets remaining: 505
-2024-11-17 19:41:46 - 5 tickets sold. Remaining tickets: 500
-2024-11-17 19:41:46 - Customer retrieved 5 tickets. Tickets remaining: 500
-2024-11-17 19:41:46 - 100 tickets added. Total tickets now: 600
-2024-11-17 19:41:46 - Cannot add 100 tickets. Max capacity reached. Tickets available: 600
-2024-11-17 19:41:47 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 19:41:47 - 5 tickets sold. Remaining tickets: 595
-2024-11-17 19:41:47 - Customer retrieved 5 tickets. Tickets remaining: 595
-2024-11-17 19:41:47 - 5 tickets sold. Remaining tickets: 590
-2024-11-17 19:41:47 - Customer retrieved 5 tickets. Tickets remaining: 590
-2024-11-17 19:41:47 - 5 tickets sold. Remaining tickets: 585
-2024-11-17 19:41:47 - Customer retrieved 5 tickets. Tickets remaining: 585
-2024-11-17 19:41:47 - 5 tickets sold. Remaining tickets: 580
-2024-11-17 19:41:47 - Customer retrieved 5 tickets. Tickets remaining: 580
-2024-11-17 19:41:47 - 5 tickets sold. Remaining tickets: 575
-2024-11-17 19:41:47 - Customer retrieved 5 tickets. Tickets remaining: 575
-2024-11-17 19:41:47 - 5 tickets sold. Remaining tickets: 570
-2024-11-17 19:41:47 - Customer retrieved 5 tickets. Tickets remaining: 570
-2024-11-17 19:41:47 - 5 tickets sold. Remaining tickets: 565
-2024-11-17 19:41:47 - Customer retrieved 5 tickets. Tickets remaining: 565
-2024-11-17 19:41:47 - 5 tickets sold. Remaining tickets: 560
-2024-11-17 19:41:47 - Customer retrieved 5 tickets. Tickets remaining: 560
-2024-11-17 19:41:47 - 5 tickets sold. Remaining tickets: 555
-2024-11-17 19:41:47 - Customer retrieved 5 tickets. Tickets remaining: 555
-2024-11-17 19:41:47 - 5 tickets sold. Remaining tickets: 550
-2024-11-17 19:41:47 - Customer retrieved 5 tickets. Tickets remaining: 550
-2024-11-17 19:41:48 - Cannot add 100 tickets. Max capacity reached. Tickets available: 550
-2024-11-17 19:41:48 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 19:41:48 - Cannot add 100 tickets. Max capacity reached. Tickets available: 550
-2024-11-17 19:41:48 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 19:41:48 - 5 tickets sold. Remaining tickets: 545
-2024-11-17 19:41:48 - Customer retrieved 5 tickets. Tickets remaining: 545
-2024-11-17 19:41:48 - 5 tickets sold. Remaining tickets: 540
-2024-11-17 19:41:48 - Customer retrieved 5 tickets. Tickets remaining: 540
-2024-11-17 19:41:48 - 5 tickets sold. Remaining tickets: 535
-2024-11-17 19:41:48 - Customer retrieved 5 tickets. Tickets remaining: 535
-2024-11-17 19:41:48 - 5 tickets sold. Remaining tickets: 530
-2024-11-17 19:41:48 - Customer retrieved 5 tickets. Tickets remaining: 530
-2024-11-17 19:41:48 - 5 tickets sold. Remaining tickets: 525
-2024-11-17 19:41:48 - Customer retrieved 5 tickets. Tickets remaining: 525
-2024-11-17 19:41:48 - 5 tickets sold. Remaining tickets: 520
-2024-11-17 19:41:48 - Customer retrieved 5 tickets. Tickets remaining: 520
-2024-11-17 19:41:48 - 5 tickets sold. Remaining tickets: 515
-2024-11-17 19:41:48 - Customer retrieved 5 tickets. Tickets remaining: 515
-2024-11-17 19:41:48 - 5 tickets sold. Remaining tickets: 510
-2024-11-17 19:41:48 - Customer retrieved 5 tickets. Tickets remaining: 510
-2024-11-17 19:41:48 - 5 tickets sold. Remaining tickets: 505
-2024-11-17 19:41:48 - Customer retrieved 5 tickets. Tickets remaining: 505
-2024-11-17 19:41:48 - 5 tickets sold. Remaining tickets: 500
-2024-11-17 19:41:48 - Customer retrieved 5 tickets. Tickets remaining: 500
-2024-11-17 19:41:49 - 100 tickets added. Total tickets now: 600
-2024-11-17 19:41:49 - Cannot add 100 tickets. Max capacity reached. Tickets available: 600
-2024-11-17 19:41:49 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 19:41:49 - 5 tickets sold. Remaining tickets: 595
-2024-11-17 19:41:49 - Customer retrieved 5 tickets. Tickets remaining: 595
-2024-11-17 19:41:49 - 5 tickets sold. Remaining tickets: 590
-2024-11-17 19:41:49 - Customer retrieved 5 tickets. Tickets remaining: 590
-2024-11-17 19:41:49 - 5 tickets sold. Remaining tickets: 585
-2024-11-17 19:41:49 - Customer retrieved 5 tickets. Tickets remaining: 585
-2024-11-17 19:41:49 - 5 tickets sold. Remaining tickets: 580
-2024-11-17 19:41:49 - Customer retrieved 5 tickets. Tickets remaining: 580
-2024-11-17 19:41:49 - 5 tickets sold. Remaining tickets: 575
-2024-11-17 19:41:49 - Customer retrieved 5 tickets. Tickets remaining: 575
-2024-11-17 19:41:49 - 5 tickets sold. Remaining tickets: 570
-2024-11-17 19:41:49 - Customer retrieved 5 tickets. Tickets remaining: 570
-2024-11-17 19:41:49 - 5 tickets sold. Remaining tickets: 565
-2024-11-17 19:41:49 - Customer retrieved 5 tickets. Tickets remaining: 565
-2024-11-17 19:41:49 - 5 tickets sold. Remaining tickets: 560
-2024-11-17 19:41:49 - Customer retrieved 5 tickets. Tickets remaining: 560
-2024-11-17 19:41:49 - 5 tickets sold. Remaining tickets: 555
-2024-11-17 19:41:49 - Customer retrieved 5 tickets. Tickets remaining: 555
-2024-11-17 19:41:49 - 5 tickets sold. Remaining tickets: 550
-2024-11-17 19:41:49 - Customer retrieved 5 tickets. Tickets remaining: 550
-2024-11-17 19:41:50 - Cannot add 100 tickets. Max capacity reached. Tickets available: 550
-2024-11-17 19:41:50 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 19:41:50 - Cannot add 100 tickets. Max capacity reached. Tickets available: 550
-2024-11-17 19:41:50 - Vendor could not add tickets. Waiting for customer purchases.
-2024-11-17 19:41:50 - 5 tickets sold. Remaining tickets: 545
-2024-11-17 19:41:50 - Customer retrieved 5 tickets. Tickets remaining: 545
-2024-11-17 19:41:50 - 5 tickets sold. Remaining tickets: 540
-2024-11-17 19:41:50 - Customer retrieved 5 tickets. Tickets remaining: 540
-2024-11-17 19:41:50 - 5 tickets sold. Remaining tickets: 535
-2024-11-17 19:41:50 - Customer retrieved 5 tickets. Tickets remaining: 535
-2024-11-17 19:41:50 - 5 tickets sold. Remaining tickets: 530
-2024-11-17 19:41:50 - Customer retrieved 5 tickets. Tickets remaining: 530
-2024-11-17 19:41:50 - 5 tickets sold. Remaining tickets: 525
-2024-11-17 19:41:50 - Customer retrieved 5 tickets. Tickets remaining: 525
-2024-11-17 19:41:50 - 5 tickets sold. Remaining tickets: 520
-2024-11-17 19:41:50 - Customer retrieved 5 tickets. Tickets remaining: 520
-2024-11-17 19:41:50 - 5 tickets sold. Remaining tickets: 515
-2024-11-17 19:41:50 - Customer retrieved 5 tickets. Tickets remaining: 515
-2024-11-17 19:41:50 - 5 tickets sold. Remaining tickets: 510
-2024-11-17 19:41:50 - Customer retrieved 5 tickets. Tickets remaining: 510
-2024-11-17 19:41:50 - 5 tickets sold. Remaining tickets: 505
-2024-11-17 19:41:50 - Customer retrieved 5 tickets. Tickets remaining: 505
-2024-11-17 19:41:50 - 5 tickets sold. Remaining tickets: 500
-2024-11-17 19:41:50 - Customer retrieved 5 tickets. Tickets remaining: 500
+2024-11-18 01:15:37 - Ticket operations started with threads.
+2024-11-18 01:15:42 - Vendor added Ticket ID: 779 | Total Tickets Added: 1
+2024-11-18 01:15:42 - Customer bought Ticket ID: 779 | Tickets Remaining: 0
+2024-11-18 01:15:47 - Vendor added Ticket ID: 236 | Total Tickets Added: 2
+2024-11-18 01:15:47 - Customer bought Ticket ID: 236 | Tickets Remaining: 0
+2024-11-18 01:15:52 - Vendor added Ticket ID: 147 | Total Tickets Added: 3
+2024-11-18 01:15:52 - Customer bought Ticket ID: 147 | Tickets Remaining: 0
+2024-11-18 01:15:57 - Vendor added Ticket ID: 82 | Total Tickets Added: 4
+2024-11-18 01:15:57 - Customer bought Ticket ID: 82 | Tickets Remaining: 0
+2024-11-18 01:15:59 - Vendor thread interrupted.
+2024-11-18 01:15:59 - Customer thread interrupted.
+2024-11-18 01:15:59 - Customer thread interrupted.
+2024-11-18 01:15:59 - Customer thread interrupted.
+2024-11-18 01:16:37 - Ticket operations started with threads.
+2024-11-18 01:16:45 - Vendor added Ticket ID: 406 | Total Tickets Added: 1
+2024-11-18 01:16:45 - Vendor added Ticket ID: 846 | Total Tickets Added: 2
+2024-11-18 01:16:45 - Vendor added Ticket ID: 184 | Total Tickets Added: 3
+2024-11-18 01:16:45 - Vendor added Ticket ID: 549 | Total Tickets Added: 4
+2024-11-18 01:16:45 - Vendor added Ticket ID: 270 | Total Tickets Added: 5
+2024-11-18 01:16:45 - Customer bought Ticket ID: 406 | Tickets Remaining: 4
+2024-11-18 01:16:45 - Customer bought Ticket ID: 846 | Tickets Remaining: 3
+2024-11-18 01:16:45 - Customer bought Ticket ID: 184 | Tickets Remaining: 2
+2024-11-18 01:16:46 - Customer bought Ticket ID: 549 | Tickets Remaining: 1
+2024-11-18 01:16:46 - Customer bought Ticket ID: 270 | Tickets Remaining: 0
+2024-11-18 01:16:48 - Vendor thread interrupted.
+2024-11-18 01:16:48 - Vendor thread interrupted.
+2024-11-18 01:16:48 - Vendor thread interrupted.
+2024-11-18 01:16:48 - Vendor thread interrupted.
+2024-11-18 01:16:48 - Vendor thread interrupted.
+2024-11-18 01:16:48 - Customer thread interrupted.
+2024-11-18 01:16:48 - Customer thread interrupted.
+2024-11-18 01:16:48 - Customer thread interrupted.
+2024-11-18 01:18:16 - Ticket operations started with threads.
+2024-11-18 01:18:24 - Vendor added Ticket ID: 224 | Total Tickets Added: 6
+2024-11-18 01:18:24 - Vendor added Ticket ID: 571 | Total Tickets Added: 7
+2024-11-18 01:18:24 - Vendor added Ticket ID: 206 | Total Tickets Added: 8
+2024-11-18 01:18:24 - Vendor added Ticket ID: 943 | Total Tickets Added: 9
+2024-11-18 01:18:24 - Vendor added Ticket ID: 263 | Total Tickets Added: 10
+2024-11-18 01:18:24 - Customer bought Ticket ID: 224 | Tickets Remaining: 4
+2024-11-18 01:18:24 - Customer bought Ticket ID: 571 | Tickets Remaining: 3
+2024-11-18 01:18:24 - Customer bought Ticket ID: 206 | Tickets Remaining: 2
+2024-11-18 01:18:25 - Customer bought Ticket ID: 943 | Tickets Remaining: 1
+2024-11-18 01:18:25 - Customer bought Ticket ID: 263 | Tickets Remaining: 0
+2024-11-18 01:18:25 - All tickets have been bought. Stopping customers...
+2024-11-18 01:18:26 - All tickets have been bought. Stopping customers...
+2024-11-18 01:18:26 - All tickets have been bought. Stopping customers...
+2024-11-18 01:18:32 - Vendor has added the total limit of tickets. Stopping...
+2024-11-18 01:18:32 - Vendor has added the total limit of tickets. Stopping...
+2024-11-18 01:18:32 - Vendor has added the total limit of tickets. Stopping...
+2024-11-18 01:18:32 - Vendor has added the total limit of tickets. Stopping...
+2024-11-18 01:18:32 - Vendor has added the total limit of tickets. Stopping...
+2024-11-18 01:20:39 - Ticket operations started with threads.
+2024-11-18 01:20:40 - Vendor added Ticket ID: 574 | Total Tickets Added: 1
+2024-11-18 01:20:40 - Vendor added Ticket ID: 48 | Total Tickets Added: 2
+2024-11-18 01:20:40 - Customer bought Ticket ID: 574 | Tickets Remaining: 1
+2024-11-18 01:20:40 - Customer bought Ticket ID: 48 | Tickets Remaining: 0
+2024-11-18 01:20:40 - Vendor added Ticket ID: 532 | Total Tickets Added: 3
+2024-11-18 01:20:41 - Vendor added Ticket ID: 80 | Total Tickets Added: 4
+2024-11-18 01:20:41 - Vendor added Ticket ID: 320 | Total Tickets Added: 5
+2024-11-18 01:20:41 - Customer bought Ticket ID: 532 | Tickets Remaining: 2
+2024-11-18 01:20:41 - Customer bought Ticket ID: 80 | Tickets Remaining: 1
+2024-11-18 01:20:41 - Customer bought Ticket ID: 320 | Tickets Remaining: 0
+2024-11-18 01:20:41 - Vendor added Ticket ID: 679 | Total Tickets Added: 6
+2024-11-18 01:20:42 - Vendor added Ticket ID: 732 | Total Tickets Added: 7
+2024-11-18 01:20:42 - Customer bought Ticket ID: 679 | Tickets Remaining: 1
+2024-11-18 01:20:42 - Vendor added Ticket ID: 609 | Total Tickets Added: 8
+2024-11-18 01:20:42 - Customer bought Ticket ID: 732 | Tickets Remaining: 1
+2024-11-18 01:20:42 - Vendor added Ticket ID: 3 | Total Tickets Added: 9
+2024-11-18 01:20:42 - Customer bought Ticket ID: 609 | Tickets Remaining: 1
+2024-11-18 01:20:43 - Vendor added Ticket ID: 825 | Total Tickets Added: 10
+2024-11-18 01:20:43 - Customer bought Ticket ID: 3 | Tickets Remaining: 1
+2024-11-18 01:20:43 - Vendor has added the total limit of tickets. Stopping...
+2024-11-18 01:20:43 - Customer bought Ticket ID: 825 | Tickets Remaining: 0
+2024-11-18 01:20:43 - Vendor has added the total limit of tickets. Stopping...
+2024-11-18 01:20:43 - All tickets have been bought. Stopping customers...
+2024-11-18 01:20:44 - All tickets have been bought. Stopping customers...
+2024-11-18 01:20:44 - Vendor has added the total limit of tickets. Stopping...
+2024-11-18 01:20:44 - All tickets have been bought. Stopping customers...
+2024-11-18 01:22:10 - Ticket operations started with threads.
+2024-11-18 01:22:11 - All tickets have been bought. Stopping customers...
+2024-11-18 01:22:11 - Vendor has added the total limit of tickets. Stopping...
+2024-11-18 01:22:11 - All tickets have been bought. Stopping customers...
+2024-11-18 01:22:11 - All tickets have been bought. Stopping customers...
+2024-11-18 01:22:11 - Vendor has added the total limit of tickets. Stopping...
+2024-11-18 01:22:11 - Vendor has added the total limit of tickets. Stopping...
+2024-11-18 01:22:45 - Ticket operations started with threads.
+2024-11-18 01:22:46 - Vendor added Ticket ID: 154 | Total Tickets Added: 1
+2024-11-18 01:22:47 - Customer bought Ticket ID: 154 | Tickets Remaining: 0
+2024-11-18 01:22:47 - Vendor added Ticket ID: 217 | Total Tickets Added: 2
+2024-11-18 01:22:48 - Vendor added Ticket ID: 937 | Total Tickets Added: 3
+2024-11-18 01:22:49 - Customer bought Ticket ID: 217 | Tickets Remaining: 1
+2024-11-18 01:22:49 - Customer bought Ticket ID: 937 | Tickets Remaining: 0
+2024-11-18 01:22:49 - Vendor added Ticket ID: 385 | Total Tickets Added: 4
+2024-11-18 01:22:50 - Vendor added Ticket ID: 516 | Total Tickets Added: 5
+2024-11-18 01:22:51 - Customer bought Ticket ID: 385 | Tickets Remaining: 1
+2024-11-18 01:22:51 - Customer bought Ticket ID: 516 | Tickets Remaining: 0
+2024-11-18 01:22:51 - Vendor added Ticket ID: 886 | Total Tickets Added: 6
+2024-11-18 01:22:52 - Vendor added Ticket ID: 764 | Total Tickets Added: 7
+2024-11-18 01:22:53 - Customer bought Ticket ID: 886 | Tickets Remaining: 1
+2024-11-18 01:22:53 - Customer bought Ticket ID: 764 | Tickets Remaining: 0
+2024-11-18 01:22:53 - Vendor added Ticket ID: 183 | Total Tickets Added: 8
+2024-11-18 01:22:54 - Vendor added Ticket ID: 799 | Total Tickets Added: 9
+2024-11-18 01:22:55 - Customer bought Ticket ID: 183 | Tickets Remaining: 1
+2024-11-18 01:22:55 - Customer bought Ticket ID: 799 | Tickets Remaining: 0
+2024-11-18 01:22:55 - Vendor added Ticket ID: 115 | Total Tickets Added: 10
+2024-11-18 01:22:56 - Vendor added Ticket ID: 418 | Total Tickets Added: 11
+2024-11-18 01:22:57 - Customer bought Ticket ID: 115 | Tickets Remaining: 1
+2024-11-18 01:22:57 - Customer bought Ticket ID: 418 | Tickets Remaining: 0
+2024-11-18 01:22:57 - Vendor added Ticket ID: 242 | Total Tickets Added: 12
+2024-11-18 01:22:58 - Vendor added Ticket ID: 847 | Total Tickets Added: 13
+2024-11-18 01:22:59 - Customer bought Ticket ID: 242 | Tickets Remaining: 1
+2024-11-18 01:22:59 - Customer bought Ticket ID: 847 | Tickets Remaining: 0
+2024-11-18 01:22:59 - Vendor added Ticket ID: 725 | Total Tickets Added: 14
+2024-11-18 01:23:00 - Vendor added Ticket ID: 87 | Total Tickets Added: 15
+2024-11-18 01:23:01 - Customer bought Ticket ID: 725 | Tickets Remaining: 1
+2024-11-18 01:23:01 - Customer bought Ticket ID: 87 | Tickets Remaining: 0
+2024-11-18 01:23:01 - Vendor added Ticket ID: 909 | Total Tickets Added: 16
+2024-11-18 01:23:02 - Vendor added Ticket ID: 498 | Total Tickets Added: 17
+2024-11-18 01:23:03 - Customer bought Ticket ID: 909 | Tickets Remaining: 1
+2024-11-18 01:23:03 - Customer bought Ticket ID: 498 | Tickets Remaining: 0
+2024-11-18 01:23:03 - Vendor added Ticket ID: 555 | Total Tickets Added: 18
+2024-11-18 01:23:04 - Vendor added Ticket ID: 109 | Total Tickets Added: 19
+2024-11-18 01:23:05 - Customer bought Ticket ID: 555 | Tickets Remaining: 1
+2024-11-18 01:23:05 - Customer bought Ticket ID: 109 | Tickets Remaining: 0
+2024-11-18 01:23:05 - Vendor added Ticket ID: 251 | Total Tickets Added: 20
+2024-11-18 01:23:06 - Vendor added Ticket ID: 978 | Total Tickets Added: 21
+2024-11-18 01:23:07 - Customer bought Ticket ID: 251 | Tickets Remaining: 1
+2024-11-18 01:23:07 - Customer bought Ticket ID: 978 | Tickets Remaining: 0
+2024-11-18 01:23:07 - Vendor added Ticket ID: 474 | Total Tickets Added: 22
+2024-11-18 01:23:08 - Vendor added Ticket ID: 499 | Total Tickets Added: 23
+2024-11-18 01:23:09 - Customer bought Ticket ID: 474 | Tickets Remaining: 1
+2024-11-18 01:23:09 - Customer bought Ticket ID: 499 | Tickets Remaining: 0
+2024-11-18 01:23:09 - Vendor added Ticket ID: 412 | Total Tickets Added: 24
+2024-11-18 01:23:10 - Vendor added Ticket ID: 294 | Total Tickets Added: 25
+2024-11-18 01:23:11 - Customer bought Ticket ID: 412 | Tickets Remaining: 1
+2024-11-18 01:23:11 - Customer bought Ticket ID: 294 | Tickets Remaining: 0
+2024-11-18 01:23:11 - Vendor added Ticket ID: 745 | Total Tickets Added: 26
+2024-11-18 01:23:12 - Vendor added Ticket ID: 575 | Total Tickets Added: 27
+2024-11-18 01:23:13 - Customer bought Ticket ID: 745 | Tickets Remaining: 1
+2024-11-18 01:23:13 - Customer bought Ticket ID: 575 | Tickets Remaining: 0
+2024-11-18 01:23:13 - Vendor added Ticket ID: 448 | Total Tickets Added: 28
+2024-11-18 01:23:14 - Vendor added Ticket ID: 199 | Total Tickets Added: 29
+2024-11-18 01:23:15 - Customer bought Ticket ID: 448 | Tickets Remaining: 1
+2024-11-18 01:23:15 - Customer bought Ticket ID: 199 | Tickets Remaining: 0
+2024-11-18 01:23:15 - Vendor added Ticket ID: 198 | Total Tickets Added: 30
+2024-11-18 01:23:16 - Vendor added Ticket ID: 152 | Total Tickets Added: 31
+2024-11-18 01:23:17 - Customer bought Ticket ID: 198 | Tickets Remaining: 1
+2024-11-18 01:23:17 - Customer bought Ticket ID: 152 | Tickets Remaining: 0
+2024-11-18 01:23:17 - Vendor added Ticket ID: 11 | Total Tickets Added: 32
+2024-11-18 01:23:18 - Vendor added Ticket ID: 526 | Total Tickets Added: 33
+2024-11-18 01:23:19 - Customer bought Ticket ID: 11 | Tickets Remaining: 1
+2024-11-18 01:23:19 - Customer bought Ticket ID: 526 | Tickets Remaining: 0
+2024-11-18 01:23:19 - Vendor added Ticket ID: 308 | Total Tickets Added: 34
+2024-11-18 01:23:20 - Vendor added Ticket ID: 47 | Total Tickets Added: 35
+2024-11-18 01:23:21 - Customer bought Ticket ID: 308 | Tickets Remaining: 1
+2024-11-18 01:23:21 - Customer bought Ticket ID: 47 | Tickets Remaining: 0
+2024-11-18 01:23:21 - Vendor added Ticket ID: 13 | Total Tickets Added: 36
+2024-11-18 01:23:22 - Vendor added Ticket ID: 843 | Total Tickets Added: 37
+2024-11-18 01:23:23 - Customer bought Ticket ID: 13 | Tickets Remaining: 1
+2024-11-18 01:23:23 - Customer bought Ticket ID: 843 | Tickets Remaining: 0
+2024-11-18 01:23:23 - Vendor added Ticket ID: 546 | Total Tickets Added: 38
+2024-11-18 01:23:24 - Vendor added Ticket ID: 875 | Total Tickets Added: 39
+2024-11-18 01:23:25 - Customer bought Ticket ID: 546 | Tickets Remaining: 1
+2024-11-18 01:23:25 - Customer bought Ticket ID: 875 | Tickets Remaining: 0
+2024-11-18 01:23:25 - Vendor added Ticket ID: 101 | Total Tickets Added: 40
+2024-11-18 01:23:26 - Vendor added Ticket ID: 448 | Total Tickets Added: 41
+2024-11-18 01:23:27 - Customer bought Ticket ID: 101 | Tickets Remaining: 1
+2024-11-18 01:23:27 - Customer bought Ticket ID: 448 | Tickets Remaining: 0
+2024-11-18 01:23:27 - Vendor added Ticket ID: 816 | Total Tickets Added: 42
+2024-11-18 01:23:29 - Vendor added Ticket ID: 243 | Total Tickets Added: 43
+2024-11-18 01:23:29 - Customer bought Ticket ID: 816 | Tickets Remaining: 1
+2024-11-18 01:23:29 - Customer bought Ticket ID: 243 | Tickets Remaining: 0
+2024-11-18 01:23:30 - Vendor added Ticket ID: 833 | Total Tickets Added: 44
+2024-11-18 01:23:31 - Vendor added Ticket ID: 699 | Total Tickets Added: 45
+2024-11-18 01:23:31 - Customer bought Ticket ID: 833 | Tickets Remaining: 1
+2024-11-18 01:23:31 - Customer bought Ticket ID: 699 | Tickets Remaining: 0
+2024-11-18 01:23:32 - Vendor added Ticket ID: 504 | Total Tickets Added: 46
+2024-11-18 01:23:33 - Vendor added Ticket ID: 502 | Total Tickets Added: 47
+2024-11-18 01:23:33 - Customer bought Ticket ID: 504 | Tickets Remaining: 1
+2024-11-18 01:23:33 - Customer bought Ticket ID: 502 | Tickets Remaining: 0
+2024-11-18 01:23:34 - Vendor added Ticket ID: 604 | Total Tickets Added: 48
+2024-11-18 01:23:35 - Vendor added Ticket ID: 315 | Total Tickets Added: 49
+2024-11-18 01:23:35 - Customer bought Ticket ID: 604 | Tickets Remaining: 1
+2024-11-18 01:23:35 - Customer bought Ticket ID: 315 | Tickets Remaining: 0
+2024-11-18 01:23:36 - Vendor added Ticket ID: 823 | Total Tickets Added: 50
+2024-11-18 01:23:37 - Vendor added Ticket ID: 798 | Total Tickets Added: 51
+2024-11-18 01:23:37 - Customer bought Ticket ID: 823 | Tickets Remaining: 1
+2024-11-18 01:23:37 - Customer bought Ticket ID: 798 | Tickets Remaining: 0
+2024-11-18 01:23:38 - Vendor added Ticket ID: 245 | Total Tickets Added: 52
+2024-11-18 01:23:39 - Vendor added Ticket ID: 914 | Total Tickets Added: 53
+2024-11-18 01:23:39 - Customer bought Ticket ID: 245 | Tickets Remaining: 1
+2024-11-18 01:23:39 - Customer bought Ticket ID: 914 | Tickets Remaining: 0
+2024-11-18 01:23:40 - Vendor added Ticket ID: 871 | Total Tickets Added: 54
+2024-11-18 01:23:41 - Vendor added Ticket ID: 691 | Total Tickets Added: 55
+2024-11-18 01:23:41 - Customer bought Ticket ID: 871 | Tickets Remaining: 1
+2024-11-18 01:23:41 - Customer bought Ticket ID: 691 | Tickets Remaining: 0
+2024-11-18 01:23:42 - Vendor added Ticket ID: 696 | Total Tickets Added: 56
+2024-11-18 01:23:43 - Vendor added Ticket ID: 345 | Total Tickets Added: 57
+2024-11-18 01:23:43 - Customer bought Ticket ID: 696 | Tickets Remaining: 1
+2024-11-18 01:23:43 - Customer bought Ticket ID: 345 | Tickets Remaining: 0
+2024-11-18 01:23:44 - Vendor added Ticket ID: 106 | Total Tickets Added: 58
+2024-11-18 01:23:45 - Vendor added Ticket ID: 860 | Total Tickets Added: 59
+2024-11-18 01:23:45 - Customer bought Ticket ID: 106 | Tickets Remaining: 1
+2024-11-18 01:23:45 - Customer bought Ticket ID: 860 | Tickets Remaining: 0
+2024-11-18 01:23:46 - Vendor added Ticket ID: 308 | Total Tickets Added: 60
+2024-11-18 01:23:47 - Vendor added Ticket ID: 169 | Total Tickets Added: 61
+2024-11-18 01:23:47 - Customer bought Ticket ID: 308 | Tickets Remaining: 1
+2024-11-18 01:23:47 - Customer bought Ticket ID: 169 | Tickets Remaining: 0
+2024-11-18 01:23:48 - Vendor added Ticket ID: 533 | Total Tickets Added: 62
+2024-11-18 01:23:49 - Vendor added Ticket ID: 505 | Total Tickets Added: 63
+2024-11-18 01:23:49 - Customer bought Ticket ID: 533 | Tickets Remaining: 1
+2024-11-18 01:23:49 - Customer bought Ticket ID: 505 | Tickets Remaining: 0
+2024-11-18 01:23:50 - Vendor added Ticket ID: 208 | Total Tickets Added: 64
+2024-11-18 01:23:51 - Vendor added Ticket ID: 285 | Total Tickets Added: 65
+2024-11-18 01:23:51 - Customer bought Ticket ID: 208 | Tickets Remaining: 1
+2024-11-18 01:23:51 - Customer bought Ticket ID: 285 | Tickets Remaining: 0
+2024-11-18 01:23:52 - Vendor added Ticket ID: 823 | Total Tickets Added: 66
+2024-11-18 01:23:53 - Vendor added Ticket ID: 988 | Total Tickets Added: 67
+2024-11-18 01:23:53 - Customer bought Ticket ID: 823 | Tickets Remaining: 1
+2024-11-18 01:23:53 - Customer bought Ticket ID: 988 | Tickets Remaining: 0
+2024-11-18 01:23:54 - Vendor added Ticket ID: 154 | Total Tickets Added: 68
+2024-11-18 01:23:55 - Vendor added Ticket ID: 814 | Total Tickets Added: 69
+2024-11-18 01:23:55 - Customer bought Ticket ID: 154 | Tickets Remaining: 1
+2024-11-18 01:23:55 - Customer bought Ticket ID: 814 | Tickets Remaining: 0
+2024-11-18 01:23:56 - Vendor added Ticket ID: 556 | Total Tickets Added: 70
+2024-11-18 01:23:57 - Vendor added Ticket ID: 973 | Total Tickets Added: 71
+2024-11-18 01:23:57 - Customer bought Ticket ID: 556 | Tickets Remaining: 1
+2024-11-18 01:23:57 - Customer bought Ticket ID: 973 | Tickets Remaining: 0
+2024-11-18 01:23:58 - Vendor added Ticket ID: 454 | Total Tickets Added: 72
+2024-11-18 01:23:59 - Vendor added Ticket ID: 214 | Total Tickets Added: 73
+2024-11-18 01:23:59 - Customer bought Ticket ID: 454 | Tickets Remaining: 1
+2024-11-18 01:23:59 - Customer bought Ticket ID: 214 | Tickets Remaining: 0
+2024-11-18 01:24:00 - Vendor added Ticket ID: 570 | Total Tickets Added: 74
+2024-11-18 01:24:01 - Vendor added Ticket ID: 253 | Total Tickets Added: 75
+2024-11-18 01:24:01 - Customer bought Ticket ID: 570 | Tickets Remaining: 1
+2024-11-18 01:24:01 - Customer bought Ticket ID: 253 | Tickets Remaining: 0
+2024-11-18 01:24:02 - Vendor added Ticket ID: 999 | Total Tickets Added: 76
+2024-11-18 01:24:03 - Vendor added Ticket ID: 637 | Total Tickets Added: 77
+2024-11-18 01:24:03 - Customer bought Ticket ID: 999 | Tickets Remaining: 1
+2024-11-18 01:24:03 - Customer bought Ticket ID: 637 | Tickets Remaining: 0
+2024-11-18 01:24:04 - Vendor added Ticket ID: 679 | Total Tickets Added: 78
+2024-11-18 01:24:05 - Vendor added Ticket ID: 274 | Total Tickets Added: 79
+2024-11-18 01:24:05 - Customer bought Ticket ID: 679 | Tickets Remaining: 1
+2024-11-18 01:24:05 - Customer bought Ticket ID: 274 | Tickets Remaining: 0
+2024-11-18 01:24:06 - Vendor added Ticket ID: 925 | Total Tickets Added: 80
+2024-11-18 01:24:07 - Vendor added Ticket ID: 618 | Total Tickets Added: 81
+2024-11-18 01:24:07 - Customer bought Ticket ID: 925 | Tickets Remaining: 1
+2024-11-18 01:24:07 - Customer bought Ticket ID: 618 | Tickets Remaining: 0
+2024-11-18 01:24:08 - Vendor added Ticket ID: 141 | Total Tickets Added: 82
+2024-11-18 01:24:09 - Vendor added Ticket ID: 225 | Total Tickets Added: 83
+2024-11-18 01:24:09 - Customer bought Ticket ID: 141 | Tickets Remaining: 1
+2024-11-18 01:24:09 - Customer bought Ticket ID: 225 | Tickets Remaining: 0
+2024-11-18 01:24:10 - Vendor added Ticket ID: 531 | Total Tickets Added: 84
+2024-11-18 01:24:11 - Vendor added Ticket ID: 953 | Total Tickets Added: 85
+2024-11-18 01:24:11 - Customer bought Ticket ID: 531 | Tickets Remaining: 1
+2024-11-18 01:24:11 - Customer bought Ticket ID: 953 | Tickets Remaining: 0
+2024-11-18 01:24:12 - Vendor added Ticket ID: 348 | Total Tickets Added: 86
+2024-11-18 01:24:13 - Vendor added Ticket ID: 601 | Total Tickets Added: 87
+2024-11-18 01:24:13 - Customer bought Ticket ID: 348 | Tickets Remaining: 1
+2024-11-18 01:24:13 - Customer bought Ticket ID: 601 | Tickets Remaining: 0
+2024-11-18 01:24:14 - Vendor added Ticket ID: 395 | Total Tickets Added: 88
+2024-11-18 01:24:15 - Vendor added Ticket ID: 3 | Total Tickets Added: 89
+2024-11-18 01:24:15 - Customer bought Ticket ID: 395 | Tickets Remaining: 1
+2024-11-18 01:24:15 - Customer bought Ticket ID: 3 | Tickets Remaining: 0
+2024-11-18 01:24:16 - Vendor added Ticket ID: 794 | Total Tickets Added: 90
+2024-11-18 01:24:17 - Vendor added Ticket ID: 4 | Total Tickets Added: 91
+2024-11-18 01:24:17 - Customer bought Ticket ID: 794 | Tickets Remaining: 1
+2024-11-18 01:24:17 - Customer bought Ticket ID: 4 | Tickets Remaining: 0
+2024-11-18 01:24:18 - Vendor added Ticket ID: 201 | Total Tickets Added: 92
+2024-11-18 01:24:19 - Vendor added Ticket ID: 195 | Total Tickets Added: 93
+2024-11-18 01:24:19 - Customer bought Ticket ID: 201 | Tickets Remaining: 1
+2024-11-18 01:24:19 - Customer bought Ticket ID: 195 | Tickets Remaining: 0
+2024-11-18 01:24:20 - Vendor added Ticket ID: 617 | Total Tickets Added: 94
+2024-11-18 01:24:21 - Vendor added Ticket ID: 769 | Total Tickets Added: 95
+2024-11-18 01:24:21 - Customer bought Ticket ID: 617 | Tickets Remaining: 1
+2024-11-18 01:24:21 - Customer bought Ticket ID: 769 | Tickets Remaining: 0
+2024-11-18 01:24:22 - Vendor added Ticket ID: 425 | Total Tickets Added: 96
+2024-11-18 01:24:23 - Vendor added Ticket ID: 733 | Total Tickets Added: 97
+2024-11-18 01:24:23 - Customer bought Ticket ID: 425 | Tickets Remaining: 1
+2024-11-18 01:24:23 - Customer bought Ticket ID: 733 | Tickets Remaining: 0
+2024-11-18 01:24:24 - Vendor added Ticket ID: 437 | Total Tickets Added: 98
+2024-11-18 01:24:25 - Vendor added Ticket ID: 940 | Total Tickets Added: 99
+2024-11-18 01:24:25 - Customer bought Ticket ID: 437 | Tickets Remaining: 1
+2024-11-18 01:24:25 - Customer bought Ticket ID: 940 | Tickets Remaining: 0
+2024-11-18 01:24:26 - Vendor added Ticket ID: 182 | Total Tickets Added: 100
+2024-11-18 01:24:27 - Vendor has added the total limit of tickets. Stopping...
+2024-11-18 01:24:27 - Customer bought Ticket ID: 182 | Tickets Remaining: 0
+2024-11-18 01:24:27 - All tickets have been bought. Stopping customers...
+2024-11-18 01:24:27 - All tickets have been bought. Stopping customers...
+2024-11-18 01:24:27 - All tickets have been bought. Stopping customers...
+2024-11-18 01:24:29 - All tickets have been bought. Stopping customers...
+2024-11-18 01:35:24 - Ticket operations started with threads.
+2024-11-18 01:35:25 - Vendor [" + id + "] added Ticket ID: 16 | Total Tickets Added: 1
+2024-11-18 01:35:25 - Vendor [" + id + "] added Ticket ID: 901 | Total Tickets Added: 2
+2024-11-18 01:35:25 - Vendor [" + id + "] added Ticket ID: 362 | Total Tickets Added: 3
+2024-11-18 01:35:25 - Vendor [" + id + "] added Ticket ID: 981 | Total Tickets Added: 4
+2024-11-18 01:35:25 - Vendor [" + id + "] added Ticket ID: 27 | Total Tickets Added: 5
+2024-11-18 01:35:26 - Customer bought Ticket ID: 16 | Tickets Remaining: 4
+2024-11-18 01:35:26 - Customer bought Ticket ID: 901 | Tickets Remaining: 3
+2024-11-18 01:35:26 - Customer bought Ticket ID: 362 | Tickets Remaining: 2
+2024-11-18 01:35:26 - Vendor [" + id + "] added Ticket ID: 490 | Total Tickets Added: 6
+2024-11-18 01:35:26 - Vendor [" + id + "] added Ticket ID: 988 | Total Tickets Added: 7
+2024-11-18 01:35:26 - Vendor [" + id + "] added Ticket ID: 746 | Total Tickets Added: 8
+2024-11-18 01:35:26 - Vendor [" + id + "] added Ticket ID: 76 | Total Tickets Added: 9
+2024-11-18 01:35:26 - Vendor [" + id + "] added Ticket ID: 348 | Total Tickets Added: 10
+2024-11-18 01:35:27 - Vendor has added the total limit of tickets. Stopping...
+2024-11-18 01:35:27 - Vendor has added the total limit of tickets. Stopping...
+2024-11-18 01:35:27 - Vendor has added the total limit of tickets. Stopping...
+2024-11-18 01:35:27 - Vendor has added the total limit of tickets. Stopping...
+2024-11-18 01:35:27 - Vendor has added the total limit of tickets. Stopping...
+2024-11-18 01:35:28 - Customer thread interrupted.
+2024-11-18 01:35:28 - Customer thread interrupted.
+2024-11-18 01:35:28 - Customer thread interrupted.
+2024-11-18 01:36:31 - Ticket operations started with threads.
+2024-11-18 01:36:36 - Vendor [1] added Ticket ID: 954 | Total Tickets Added: 1
+2024-11-18 01:36:36 - Vendor [5] added Ticket ID: 880 | Total Tickets Added: 2
+2024-11-18 01:36:36 - Vendor [3] added Ticket ID: 217 | Total Tickets Added: 3
+2024-11-18 01:36:36 - Vendor waiting: Ticket Pool is full.
+2024-11-18 01:36:36 - Vendor waiting: Ticket Pool is full.
+2024-11-18 01:36:41 - Customer bought Ticket ID: 954 | Tickets Remaining: 2
+2024-11-18 01:36:41 - Vendor [1] added Ticket ID: 792 | Total Tickets Added: 4
+2024-11-18 01:36:41 - Vendor waiting: Ticket Pool is full.
+2024-11-18 01:36:41 - Vendor waiting: Ticket Pool is full.
+2024-11-18 01:36:41 - Vendor waiting: Ticket Pool is full.
+2024-11-18 01:36:41 - Vendor waiting: Ticket Pool is full.
+2024-11-18 01:36:42 - Vendor [1] thread interrupted.
+2024-11-18 01:36:42 - Vendor [2] thread interrupted.
+2024-11-18 01:36:42 - Vendor [3] thread interrupted.
+2024-11-18 01:36:42 - Vendor [4] thread interrupted.
+2024-11-18 01:36:42 - Vendor [5] thread interrupted.
+2024-11-18 01:36:42 - Customer thread interrupted.
+2024-11-18 01:37:23 - Ticket operations started with threads.
+2024-11-18 01:37:28 - Vendor waiting: Ticket Pool is full.
+2024-11-18 01:37:28 - Vendor waiting: Ticket Pool is full.
+2024-11-18 01:37:28 - Vendor waiting: Ticket Pool is full.
+2024-11-18 01:37:28 - Vendor waiting: Ticket Pool is full.
+2024-11-18 01:37:28 - Vendor waiting: Ticket Pool is full.
+2024-11-18 01:37:33 - Customer bought Ticket ID: 880 | Tickets Remaining: 2
+2024-11-18 01:37:33 - Vendor [5] added Ticket ID: 500 | Total Tickets Added: 5
+2024-11-18 01:37:33 - Vendor has added the total limit of tickets. Stopping...
+2024-11-18 01:37:33 - Vendor has added the total limit of tickets. Stopping...
+2024-11-18 01:37:33 - Vendor has added the total limit of tickets. Stopping...
+2024-11-18 01:37:33 - Vendor has added the total limit of tickets. Stopping...
+2024-11-18 01:37:38 - Vendor has added the total limit of tickets. Stopping...
+2024-11-18 01:37:43 - Customer bought Ticket ID: 217 | Tickets Remaining: 2
+2024-11-18 01:37:53 - Customer bought Ticket ID: 792 | Tickets Remaining: 1
+2024-11-18 01:38:03 - Customer bought Ticket ID: 500 | Tickets Remaining: 0
+2024-11-18 01:38:13 - All tickets have been bought. Stopping customers...
+2024-11-18 01:39:49 - Ticket operations started with threads.
+2024-11-18 01:39:50 - Vendor [5] added Ticket ID: 509 | Total Tickets Added: 1
+2024-11-18 01:39:50 - Vendor [4] added Ticket ID: 503 | Total Tickets Added: 2
+2024-11-18 01:39:50 - Vendor [3] added Ticket ID: 89 | Total Tickets Added: 3
+2024-11-18 01:39:50 - Vendor [1] added Ticket ID: 868 | Total Tickets Added: 4
+2024-11-18 01:39:50 - Vendor [2] added Ticket ID: 722 | Total Tickets Added: 5
+2024-11-18 01:39:51 - Vendor [5] waiting: Ticket Pool is full.
+2024-11-18 01:39:51 - Vendor [4] waiting: Ticket Pool is full.
+2024-11-18 01:39:51 - Vendor [3] waiting: Ticket Pool is full.
+2024-11-18 01:39:51 - Vendor [2] waiting: Ticket Pool is full.
+2024-11-18 01:39:51 - Vendor [1] waiting: Ticket Pool is full.
+2024-11-18 01:39:52 - Vendor [5] waiting: Ticket Pool is full.
+2024-11-18 01:39:52 - Vendor [4] waiting: Ticket Pool is full.
+2024-11-18 01:39:52 - Vendor [3] waiting: Ticket Pool is full.
+2024-11-18 01:39:52 - Vendor [2] waiting: Ticket Pool is full.
+2024-11-18 01:39:52 - Vendor [1] waiting: Ticket Pool is full.
+2024-11-18 01:39:53 - Vendor [5] waiting: Ticket Pool is full.
+2024-11-18 01:39:53 - Vendor [4] waiting: Ticket Pool is full.
+2024-11-18 01:39:53 - Vendor [3] waiting: Ticket Pool is full.
+2024-11-18 01:39:53 - Vendor [2] waiting: Ticket Pool is full.
+2024-11-18 01:39:54 - Vendor [1] waiting: Ticket Pool is full.
+2024-11-18 01:39:54 - Customer bought Ticket ID: 509 | Tickets Remaining: 4
+2024-11-18 01:39:54 - Customer bought Ticket ID: 503 | Tickets Remaining: 3
+2024-11-18 01:39:54 - Customer bought Ticket ID: 89 | Tickets Remaining: 2
+2024-11-18 01:39:54 - Vendor [5] added Ticket ID: 126 | Total Tickets Added: 6
+2024-11-18 01:39:54 - Vendor [4] added Ticket ID: 621 | Total Tickets Added: 7
+2024-11-18 01:39:54 - Vendor [3] added Ticket ID: 666 | Total Tickets Added: 8
+2024-11-18 01:39:55 - Vendor [2] waiting: Ticket Pool is full.
+2024-11-18 01:39:55 - Vendor [1] waiting: Ticket Pool is full.
+2024-11-18 01:39:55 - Vendor [1] thread interrupted.
+2024-11-18 01:39:55 - Vendor [2] thread interrupted.
+2024-11-18 01:39:55 - Vendor [3] thread interrupted.
+2024-11-18 01:39:55 - Vendor [4] thread interrupted.
+2024-11-18 01:39:55 - Vendor [5] thread interrupted.
+2024-11-18 01:39:55 - Customer thread interrupted.
+2024-11-18 01:39:55 - Customer thread interrupted.
+2024-11-18 01:39:55 - Customer thread interrupted.

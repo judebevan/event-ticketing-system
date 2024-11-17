@@ -11,12 +11,12 @@ public class Logger {
     public static synchronized void log(String message) {
         String timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
         String logMessage = timestamp + " - " + message;
-        System.out.println(logMessage);
+        System.out.println(logMessage); // Log to console
 
         try (FileWriter writer = new FileWriter(LOG_FILE, true)) {
-            writer.write(logMessage + "\n");
+            writer.write(logMessage + System.lineSeparator());
         } catch (IOException e) {
-            System.out.println("Failed to write to log file: " + e.getMessage());
+            System.err.println("Failed to log message: " + e.getMessage());
         }
     }
 }
