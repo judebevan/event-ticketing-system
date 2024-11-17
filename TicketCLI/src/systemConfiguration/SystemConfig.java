@@ -13,8 +13,8 @@ public class SystemConfig {
 
     private int maxTicketCapacity;
     private int totalTickets;
-    private int ticketReleaseRate;
-    private int customerRetrievalRate;
+    private int ticketReleaseRate; // How many tickets will be released to the pool at a second
+    private int customerRetrievalRate; // How many tickets will a customer buy at a second
     private int vendor;
     private int customer;
 
@@ -28,9 +28,7 @@ public class SystemConfig {
         this.customer = customer;
     }
 
-    public SystemConfig() {
-
-    }
+    public SystemConfig() {}
 
     // Getters and Setters
     public int getMaxTicketCapacity() {

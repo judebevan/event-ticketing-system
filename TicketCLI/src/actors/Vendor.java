@@ -14,9 +14,12 @@ public class Vendor implements Runnable {
 
     @Override
     public void run() {
+
         while (!Thread.currentThread().isInterrupted()) {
-            pool.addTickets(releaseRate);
-            Logger.log("Vendor added " + releaseRate + " tickets. Tickets available: " + pool.getTicketsAvailable());
+            boolean added = pool.addTickets(releaseRate);
+            if (!added) {
+                Logger.log("Vendor could not add tickets. Waiting for customer purchases.");
+            }
             try {
                 Thread.sleep(1000); // Simulate release rate delay
             } catch (InterruptedException e) {

@@ -9,6 +9,8 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Main {
+    private enum SystemState { STOPPED, RUNNING }
+    private static SystemState currentState = SystemState.STOPPED;
     private static SystemConfig config = new SystemConfig();
     private static TicketPool ticketPool;
     final private static List<Thread> vendorThreads = new ArrayList<>();
@@ -23,7 +25,7 @@ public class Main {
     private static void promptForInput() {
         Scanner configScanner = new Scanner(System.in);
 
-        System.out.println("Enter Maximum Ticket Capacity: ");
+        System.out.print("Enter Maximum Ticket Capacity: ");
         config.setMaxTicketCapacity(config.getValidatedInput(configScanner, "Maximum Ticket Capacity"));
 
         while (true) {
@@ -55,10 +57,10 @@ public class Main {
     private static void sysControl() {
         System.out.println("""
                 Follow the system controls:\s
-                | Enter command '200' to load system configurations |\s
-                | Enter command '201' to start the buying and selling |\s
-                | Enter command '400' to stop the buying and selling |\s
-                | Enter command '500' to stop the running system |\s
+                | Enter command '1' to load system configurations |\s
+                | Enter command '2' to start the buying and selling |\s
+                | Enter command '4' to stop the buying and selling |\s
+                | Enter command '5' to stop the running system |\s
                 """);
         Scanner controlScanner = new Scanner(System.in);
 
@@ -68,18 +70,28 @@ public class Main {
                 int command = controlScanner.nextInt();
 
                 switch (command) {
-                    case 200:
+                    case 1:
                         loadConfig();
                         break;
-                    case 201:
-                        System.out.println("Starting buying and selling...");
-                        startThreads();
+                    case 2:
+                        if (currentState == SystemState.RUNNING) {
+                            System.out.println("System is already running.");
+                        } else {
+                            System.out.println("Starting buying and selling...");
+                            startThreads();
+                            currentState = SystemState.RUNNING;
+                        }
                         break;
-                    case 400:
-                        System.out.println("Stopping buying and selling...");
-                        stopThreads();
+                    case 4:
+                        if (currentState == SystemState.STOPPED) {
+                            System.out.println("System is already stopped.");
+                        } else {
+                            System.out.println("Stopping buying and selling...");
+                            stopThreads();
+                            currentState = SystemState.STOPPED;
+                        }
                         break;
-                    case 500:
+                    case 5:
                         System.out.println("Stopping the system...");
                         System.exit(0);
                     default:
@@ -97,26 +109,43 @@ public class Main {
             ticketPool = new TicketPool(config.getTotalTickets(), config.getMaxTicketCapacity());
         }
 
-        for (int i = 0; i < config.getVendor(); i++) {
-            Thread vendor = new Thread(new Vendor(ticketPool, config.getTicketReleaseRate()));
-            vendorThreads.add(vendor);
-            vendor.start();
-        }
+        try {
+            for (int i = 0; i < config.getVendor(); i++) {
+                Thread vendor = new Thread(new Vendor(ticketPool, config.getTicketReleaseRate()));
+                vendorThreads.add(vendor);
+                vendor.start();
+            }
 
-        for (int i = 0; i < config.getCustomer(); i++) {
-            Thread customer = new Thread(new Customer(ticketPool, config.getCustomerRetrievalRate()));
-            customerThreads.add(customer);
-            customer.start();
+            for (int i = 0; i < config.getCustomer(); i++) {
+                Thread customer = new Thread(new Customer(ticketPool, config.getCustomerRetrievalRate()));
+                customerThreads.add(customer);
+                customer.start();
+            }
+            System.out.println("Threads started.");
+        } catch (Exception e) {
+            System.out.println("Error starting threads: " + e.getMessage());
         }
-        System.out.println("Threads started.");
     }
 
+
     private static void stopThreads() {
-        vendorThreads.forEach(Thread::interrupt);
-        customerThreads.forEach(Thread::interrupt);
-        vendorThreads.clear();
-        customerThreads.clear();
-        System.out.println("Threads stopped.");
+        try {
+            vendorThreads.forEach(thread -> {
+                if (thread.isAlive()) {
+                    thread.interrupt();
+                }
+            });
+            customerThreads.forEach(thread -> {
+                if (thread.isAlive()) {
+                    thread.interrupt();
+                }
+            });
+            vendorThreads.clear();
+            customerThreads.clear();
+            System.out.println("Threads stopped.");
+        } catch (Exception e) {
+            System.out.println("Error stopping threads: " + e.getMessage());
+        }
     }
 
     private static void loadConfig() {

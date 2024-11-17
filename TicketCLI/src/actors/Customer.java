@@ -15,6 +15,7 @@ public class Customer implements Runnable {
     @Override
     public void run() {
         while (!Thread.currentThread().isInterrupted()) {
+            
             pool.removeTickets(retrievalRate);
             Logger.log("Customer retrieved " + retrievalRate + " tickets. Tickets remaining: " + pool.getTicketsAvailable());
             try {
