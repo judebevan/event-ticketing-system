@@ -1,0 +1,35 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: jude
+      changes:
+        - createTable:
+            tableName: config
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: totalTickets
+                  type: bigint(4)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: ticketReleaseRate
+                  type: bigint(3)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: customerRetrievalRate
+                  type: bigint(3)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: maxTicketCapacity
+                  type: bigint(3)
+                  constraints:
+                    nullable: false
