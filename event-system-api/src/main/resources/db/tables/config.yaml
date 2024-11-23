@@ -14,22 +14,22 @@ databaseChangeLog:
                     primaryKey: true
                     nullable: false
               - column:
-                  name: totalTickets
+                  name: total_tickets
                   type: bigint(4)
                   constraints:
                     nullable: false
               - column:
-                  name: ticketReleaseRate
+                  name: max_ticket_capacity
                   type: bigint(3)
                   constraints:
                     nullable: false
               - column:
-                  name: customerRetrievalRate
+                  name: ticket_release_rate
                   type: bigint(3)
                   constraints:
                     nullable: false
               - column:
-                  name: maxTicketCapacity
+                  name: customer_retrieval_rate
                   type: bigint(3)
                   constraints:
                     nullable: false

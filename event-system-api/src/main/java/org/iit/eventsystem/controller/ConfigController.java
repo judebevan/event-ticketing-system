@@ -21,7 +21,7 @@ public class ConfigController {
     @PostMapping("/set-config")
     public ResponseEntity<String> setConfigurations(@RequestBody ConfigDto configDto) {
         try {
-            // Validate ConfigDto values manually
+            // Validate ConfigDto values
             validateConfigDto(configDto);
 
             // Extract fields and pass to VendorService
@@ -49,23 +49,24 @@ public class ConfigController {
     @GetMapping("/get-config")
     public ResponseEntity<Config> getConfig() {
         Config config = configService.getCurrentConfig();
+        if (config == null) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
+        }
         return ResponseEntity.ok(config);
     }
 
     @PostMapping("/reset")
     public ResponseEntity<Config> resetConfig(@RequestBody ConfigDto configDto) {
-        try {
-            // Validate ConfigDto values manually
-            validateConfigDto(configDto);
+        // Validate ConfigDto values manually
+        validateConfigDto(configDto);
 
-            Config config = configService.resetConfigValue(configDto);
-            return ResponseEntity.ok(config);
-        } catch (IllegalArgumentException e) {
-            return ResponseEntity.badRequest().body(null);
-        }
+        // Proceed with the rest of the logic
+        Config config = configService.resetConfigValue(configDto);
+        return ResponseEntity.ok(config);
     }
 
     private void validateConfigDto(ConfigDto configDto) {
+        // Validate individual fields
         if (configDto.getTotalTickets() <= 0) {
             throw new IllegalArgumentException("Total tickets must be greater than 0.");
         }
@@ -77,6 +78,21 @@ public class ConfigController {
         }
         if (configDto.getCustomerRetrievalRate() <= 0) {
             throw new IllegalArgumentException("Customer retrieval rate must be greater than 0.");
+        }
+
+        // Additional validation: maxCapacity cannot exceed totalTickets
+        if (configDto.getMaxCapacity() > configDto.getTotalTickets()) {
+            throw new IllegalArgumentException("Max capacity cannot exceed total tickets.");
+        }
+
+        // Additional validation: ticketReleaseRate cannot exceed maxCapacity
+        if (configDto.getTicketReleaseRate() > configDto.getMaxCapacity()) {
+            throw new IllegalArgumentException("Ticket release rate cannot exceed max capacity.");
+        }
+
+        // Additional validation: ticketReleaseRate cannot exceed totalTickets
+        if (configDto.getTicketReleaseRate() > configDto.getTotalTickets()) {
+            throw new IllegalArgumentException("Ticket release rate cannot exceed total tickets.");
         }
     }
 

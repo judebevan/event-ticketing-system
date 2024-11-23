@@ -6,7 +6,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class Logger {
-    private static final String LOG_FILE = "resources/ticketing_log.txt";
+    private static final String LOG_FILE = "TicketCLI/resources/ticketing_log.txt";
 
     public static synchronized void log(String message) {
         String timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));

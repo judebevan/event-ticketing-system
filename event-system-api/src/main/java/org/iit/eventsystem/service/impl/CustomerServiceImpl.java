@@ -16,7 +16,7 @@ public class CustomerServiceImpl implements CustomerService {
 
     @Override
     public Customer createCustomer(String username, String email, String password, Long mobileNo, Boolean is_premium) {
-        // Check if a vendor with the same email exists
+        // Check if a customer with the same email exists
         if (customerRepository.findCustomerByEmail(email).isPresent()) {
             throw new UserAlreadyExistsException("Customer with email " + email + " already exists.");
         }

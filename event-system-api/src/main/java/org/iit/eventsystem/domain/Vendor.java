@@ -32,6 +32,7 @@ public class Vendor implements Serializable {
     @Column(name = "is_admin", nullable = false)
     private boolean isAdmin;
 
-    public void setIsAdmin(boolean isAdmin) {
+    public void setIsAdmin(Boolean isAdmin) {
+        this.isAdmin = isAdmin;
     }
 }

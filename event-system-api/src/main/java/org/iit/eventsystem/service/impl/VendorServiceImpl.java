@@ -1,9 +1,11 @@
 package org.iit.eventsystem.service.impl;
 
+import org.iit.eventsystem.domain.Config;
 import org.iit.eventsystem.domain.TicketPool;
 import org.iit.eventsystem.domain.Vendor;
 import org.iit.eventsystem.exception.UserAlreadyExistsException;
 import org.iit.eventsystem.exception.UserNotFoundException;
+import org.iit.eventsystem.repository.ConfigRepository;
 import org.iit.eventsystem.repository.VendorRepository;
 import org.iit.eventsystem.service.VendorService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,16 +19,23 @@ public class VendorServiceImpl implements VendorService {
     @Autowired
     private VendorRepository vendorRepository;
 
+    @Autowired
+    private ConfigRepository configRepository;
+
     private boolean isAdminLoggedIn = false;
     private final ReentrantLock lock = new ReentrantLock();
     private int totalTickets;
     private TicketPool ticketPool;
 
     @Override
-    public Vendor createVendor(String username, String email, String password, Long mobileNo, boolean isAdmin) {
+    public Vendor createVendor(String username, String email, String password, Long mobileNo, Boolean isAdmin) {
         // Check if a vendor with the same email exists
         if (vendorRepository.findVendorByEmail(email).isPresent()) {
             throw new UserAlreadyExistsException("Vendor with email " + email + " already exists.");
+        }
+        // Check if isAdmin is null and set default value
+        if (isAdmin == null) {
+            isAdmin = false; // Default value if null
         }
 
         Vendor vendor = new Vendor();
@@ -55,17 +64,33 @@ public class VendorServiceImpl implements VendorService {
     public synchronized void setConfigurations(int totalTickets, int maxCapacity, int ticketReleaseRate, int customerRetrievalRate) {
         lock.lock();
         try {
-            if (isAdminLoggedIn) {
-                // Initialize TicketPool
-                this.totalTickets = totalTickets;
-                ticketPool = new TicketPool(maxCapacity);
-                System.out.println("Parameters set successfully!");
-            } else {
-                throw new SecurityException("Only admin can set parameters.");
+//            if (!isAdminLoggedIn) {
+//                throw new SecurityException("Only admins can set configurations.");
+//            }
+
+            // Check if configuration already exists
+            if (configRepository.existsByTotalTicketsAndMaxTicketCapacityAndTicketReleaseRateAndCustomerRetrievalRate(
+                    (long) totalTickets, (long) maxCapacity, (long) ticketReleaseRate, (long) customerRetrievalRate)) {
+                throw new IllegalArgumentException("Configuration already exists. Please reset the configuration.");
             }
+
+            // Update in-memory variables
+            this.totalTickets = totalTickets;
+            ticketPool = new TicketPool(maxCapacity);
+
+            // Persist configurations to the database
+            Config config = new Config();
+            config.setTotalTickets((long) totalTickets);
+            config.setMaxTicketCapacity((long) maxCapacity);
+            config.setTicketReleaseRate((long) ticketReleaseRate);
+            config.setCustomerRetrievalRate((long) customerRetrievalRate);
+            configRepository.save(config);
+
+            System.out.println("Parameters set successfully!");
         } finally {
             lock.unlock();
         }
     }
+
 
 }

@@ -8,9 +8,9 @@ public class VendorDTO {
     private String email;
     private String password;
     private Long mobileNo;
-    private boolean isAdmin;
+    private Boolean isAdmin;
 
-    public boolean getIsAdmin() {
+    public Boolean getIsAdmin() {
         return isAdmin;
     }
 }
