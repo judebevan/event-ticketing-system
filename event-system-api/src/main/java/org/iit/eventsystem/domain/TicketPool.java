@@ -1,40 +1,72 @@
 package org.iit.eventsystem.domain;
 
-import java.util.concurrent.ConcurrentLinkedQueue;
-import java.util.concurrent.locks.ReentrantLock;
+import jakarta.persistence.*;
+import lombok.Data;
 
-public class TicketPool {
-    private final ConcurrentLinkedQueue<String> tickets = new ConcurrentLinkedQueue<>();
-    private final int maxCapacity;
-    private final ReentrantLock lock = new ReentrantLock();
+import java.io.Serial;
+import java.io.Serializable;
 
-    public TicketPool(int maxCapacity) {
-        this.maxCapacity = maxCapacity;
-    }
+@Entity
+@Table(name ="ticket_pool")
+@Data
+public class TicketPool implements Serializable {
 
-    public boolean addTickets(String ticket) {
-        lock.lock();
-        try {
-            if (tickets.size() < maxCapacity) {
-                tickets.add(ticket);
-                return true;
-            }
-            return false;
-        } finally {
-            lock.unlock();
+    @Serial
+    private static final long serialVersionUID = 5L;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id", nullable = false)
+    private Long id;
+
+    @Column(name = "available_tickets", nullable = false)
+    private long availableTickets;
+
+    @Column(name = "released_tickets", nullable = false)
+    private long releasedTickets;
+
+//    public TicketPool() {
+//        this.availableTickets = 0;
+//        this.releasedTickets = 0;
+//    }
+
+    public synchronized boolean canAddTickets(long ticketsToAdd, long maxCapacity, long totalTickets) {
+        if (releasedTickets + ticketsToAdd > totalTickets) {
+            return false; // Exceeds total tickets
         }
-    }
-
-    public String removeTicket() {
-        lock.lock();
-        try {
-            return tickets.poll();
-        } finally {
-            lock.unlock();
+        if (availableTickets + ticketsToAdd > maxCapacity) {
+            return false; // Exceeds pool capacity
         }
+        return true;
     }
 
-    public int getAvailableTickets() {
-        return tickets.size();
+    public synchronized void addTickets(long ticketsToAdd, long maxCapacity, long totalTickets) {
+        if (!canAddTickets(ticketsToAdd, maxCapacity, totalTickets)) {
+            throw new IllegalStateException("Cannot add tickets. Pool capacity or total tickets exceeded.");
+        }
+        availableTickets += ticketsToAdd;
+        releasedTickets += ticketsToAdd;
+    }
+
+    public synchronized void purchaseTickets(long ticketsToPurchase) {
+        if (ticketsToPurchase > availableTickets) {
+            throw new IllegalStateException("Not enough tickets available for purchase.");
+        }
+        availableTickets -= ticketsToPurchase;
+    }
+
+    public long getAvailableTickets() {
+        return availableTickets;
+    }
+
+    public long getReleasedTickets() {
+        return releasedTickets;
+    }
+
+    public void setAvailableTickets(long availableTickets) {
+        this.availableTickets = availableTickets;
+    }
+
+    public void setReleasedTickets(long releasedTickets) {
+        this.releasedTickets = releasedTickets;
     }
 }

@@ -36,4 +36,48 @@ public class Customer implements Serializable {
         this.isPremium = isPremium;
     }
 
+    public boolean getIs_premium() {
+        return isPremium;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public Long getMobileNo() {
+        return mobileNo;
+    }
+
+    public void setMobileNo(Long mobileNo) {
+        this.mobileNo = mobileNo;
+    }
+
 }

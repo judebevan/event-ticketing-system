@@ -24,7 +24,7 @@ public class VendorServiceImpl implements VendorService {
 
     private boolean isAdminLoggedIn = false;
     private final ReentrantLock lock = new ReentrantLock();
-    private int totalTickets;
+    private long totalTickets;
     private TicketPool ticketPool;
 
     @Override
@@ -60,30 +60,66 @@ public class VendorServiceImpl implements VendorService {
         }
     }
 
+//    @Override
+//    public synchronized void setConfigurations(int totalTickets, int maxCapacity, int ticketReleaseRate, int customerRetrievalRate) {
+//        lock.lock();
+//        try {
+////            if (!isAdminLoggedIn) {
+////                throw new SecurityException("Only admins can set configurations.");
+////            }
+//
+//            // Check if configuration already exists
+//            if (configRepository.existsByTotalTicketsAndMaxTicketCapacityAndTicketReleaseRateAndCustomerRetrievalRate(
+//                    (long) totalTickets, (long) maxCapacity, (long) ticketReleaseRate, (long) customerRetrievalRate)) {
+//                throw new IllegalArgumentException("Configuration already exists. Please reset the configuration.");
+//            }
+//
+//            // Update in-memory variables
+//            this.totalTickets = totalTickets;
+//            ticketPool = new TicketPool(maxCapacity, totalTickets);
+//
+//            // Persist configurations to the database
+//            Config config = new Config();
+//            config.setTotalTickets((long) totalTickets);
+//            config.setMaxTicketCapacity((long) maxCapacity);
+//            config.setTicketReleaseRate((long) ticketReleaseRate);
+//            config.setCustomerRetrievalRate((long) customerRetrievalRate);
+//            configRepository.save(config);
+//
+//            System.out.println("Parameters set successfully!");
+//        } finally {
+//            lock.unlock();
+//        }
+//    }
+
     @Override
     public synchronized void setConfigurations(int totalTickets, int maxCapacity, int ticketReleaseRate, int customerRetrievalRate) {
         lock.lock();
         try {
-//            if (!isAdminLoggedIn) {
-//                throw new SecurityException("Only admins can set configurations.");
-//            }
+            System.out.println("Starting setConfigurations...");
 
-            // Check if configuration already exists
-            if (configRepository.existsByTotalTicketsAndMaxTicketCapacityAndTicketReleaseRateAndCustomerRetrievalRate(
-                    (long) totalTickets, (long) maxCapacity, (long) ticketReleaseRate, (long) customerRetrievalRate)) {
+            Long totalTicketsLong = Long.valueOf(totalTickets);
+            Long maxCapacityLong = Long.valueOf(maxCapacity);
+            Long ticketReleaseRateLong = Long.valueOf(ticketReleaseRate);
+            Long customerRetrievalRateLong = Long.valueOf(customerRetrievalRate);
+
+            System.out.println("Checking if configuration exists...");
+            boolean exists = configRepository.existsByTotalTicketsAndMaxTicketCapacityAndTicketReleaseRateAndCustomerRetrievalRate(
+                    totalTicketsLong, maxCapacityLong, ticketReleaseRateLong, customerRetrievalRateLong);
+            System.out.println("Configuration exists: " + exists);
+
+            if (exists) {
+                System.out.println("Configuration found, throwing exception.");
                 throw new IllegalArgumentException("Configuration already exists. Please reset the configuration.");
             }
 
-            // Update in-memory variables
-            this.totalTickets = totalTickets;
-            ticketPool = new TicketPool(maxCapacity);
-
-            // Persist configurations to the database
+            // Proceed with saving the configuration
+            System.out.println("Saving configuration...");
             Config config = new Config();
-            config.setTotalTickets((long) totalTickets);
-            config.setMaxTicketCapacity((long) maxCapacity);
-            config.setTicketReleaseRate((long) ticketReleaseRate);
-            config.setCustomerRetrievalRate((long) customerRetrievalRate);
+            config.setTotalTickets(totalTicketsLong);
+            config.setMaxTicketCapacity(maxCapacityLong);
+            config.setTicketReleaseRate(ticketReleaseRateLong);
+            config.setCustomerRetrievalRate(customerRetrievalRateLong);
             configRepository.save(config);
 
             System.out.println("Parameters set successfully!");
@@ -91,6 +127,7 @@ public class VendorServiceImpl implements VendorService {
             lock.unlock();
         }
     }
+
 
 
 }
