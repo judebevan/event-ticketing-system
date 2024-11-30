@@ -24,11 +24,6 @@ public class TicketPool implements Serializable {
     @Column(name = "released_tickets", nullable = false)
     private long releasedTickets;
 
-//    public TicketPool() {
-//        this.availableTickets = 0;
-//        this.releasedTickets = 0;
-//    }
-
     public synchronized boolean canAddTickets(long ticketsToAdd, long maxCapacity, long totalTickets) {
         if (releasedTickets + ticketsToAdd > totalTickets) {
             return false; // Exceeds total tickets

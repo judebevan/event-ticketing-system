@@ -1,5 +1,8 @@
 package org.iit.eventsystem.dto;
 
+import lombok.Data;
+
+@Data
 public class ConfigDto {
     private int totalTickets;
     private int maxCapacity;
