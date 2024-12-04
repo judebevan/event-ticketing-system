@@ -6,4 +6,6 @@ import lombok.Data;
 public class TicketRequestDto {
     private String type;
     private long count;
+    private long vendorId;
+    private long customerId;
 }

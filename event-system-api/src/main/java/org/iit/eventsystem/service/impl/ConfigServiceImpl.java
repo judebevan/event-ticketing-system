@@ -2,15 +2,16 @@ package org.iit.eventsystem.service.impl;
 
 
 import jakarta.annotation.PostConstruct;
-import org.iit.eventsystem.domain.Config;
-import org.iit.eventsystem.domain.TicketPool;
+import jakarta.transaction.Transactional;
+import org.iit.eventsystem.domain.*;
 import org.iit.eventsystem.dto.ConfigDto;
-import org.iit.eventsystem.repository.ConfigRepository;
-import org.iit.eventsystem.repository.TicketPoolRepository;
+import org.iit.eventsystem.repository.*;
 import org.iit.eventsystem.service.ConfigService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
+import java.util.Optional;
 import java.util.logging.Logger;
 
 @Service
@@ -23,6 +24,15 @@ public class ConfigServiceImpl implements ConfigService {
 
     @Autowired
     private TicketPoolRepository ticketPoolRepository;
+
+    @Autowired
+    private TicketLogRepository ticketLogRepository;
+
+    @Autowired
+    private VendorRepository vendorRepository;
+
+    @Autowired
+    private CustomerRepository customerRepository;
 
     private TicketPool ticketPool;
 
@@ -73,12 +83,18 @@ public class ConfigServiceImpl implements ConfigService {
 
     }
 
+    @Transactional
     @Override
-    public synchronized void addTicketsToPool(long ticketsToAdd) {
+    public synchronized void addTicketsToPool(long ticketsToAdd, long vendorId) {
+        Optional<Vendor> vendor = vendorRepository.findVendorById(vendorId);
+        if (vendor.isEmpty()) {
+            throw new IllegalArgumentException("Invalid vendor ID: " + vendorId);
+        }
         Config config = getCurrentConfig();
         try {
             ticketPool.addTickets(ticketsToAdd, config.getMaxTicketCapacity(), config.getTotalTickets());
             ticketPoolRepository.save(ticketPool);
+            logTransaction(vendorId, null, ticketsToAdd, 0);
             log.info(ticketsToAdd + " tickets added successfully. Current available: " +
                     ticketPool.getAvailableTickets());
         } catch (IllegalStateException e) {
@@ -87,18 +103,36 @@ public class ConfigServiceImpl implements ConfigService {
         }
     }
 
+    @Transactional
     @Override
-    public synchronized void purchaseTicketsFromPool(long ticketsToPurchase) {
+    public synchronized void purchaseTicketsFromPool(long ticketsToPurchase, long customerId) {
+        Optional<Customer> customer = customerRepository.findCustomerById(customerId);
+        if (customer.isEmpty()) {
+            throw new IllegalArgumentException("Invalid customer ID: " + customerId);
+        }
         getCurrentConfig();
         try {
             ticketPool.purchaseTickets(ticketsToPurchase);
             ticketPoolRepository.save(ticketPool);
+            logTransaction(null, customerId, 0, ticketsToPurchase);
             log.info(ticketsToPurchase + " tickets purchased successfully. Current available: " +
                     ticketPool.getAvailableTickets());
         } catch (IllegalStateException e) {
             log.warning("Failed to purchase tickets: " + e.getMessage());
             throw e;
         }
+    }
+
+    private void logTransaction(Long vendorId, Long customerId, long ticketsAdded, long ticketsPurchased) {
+        TicketLog log = new TicketLog();
+        log.setVendorId(vendorId);
+        log.setCustomerId(customerId);
+        log.setTicketsAdded(ticketsAdded);
+        log.setTicketsPurchased(ticketsPurchased);
+        log.setTimestamp(new Date());
+
+        // Save the log to the database
+        ticketLogRepository.save(log);
     }
 
     public TicketPool getTicketPool() {

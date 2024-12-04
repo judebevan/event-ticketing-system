@@ -10,9 +10,9 @@ public interface ConfigService {
 
     Config getCurrentConfig();
 
-    void addTicketsToPool(long ticketsToAdd);
+    void addTicketsToPool(long ticketsToAdd, long vendorId);
 
-    void purchaseTicketsFromPool(long ticketsToPurchase);
+    void purchaseTicketsFromPool(long ticketsToPurchase, long customerId);
 
     TicketPool getTicketPool();
 }

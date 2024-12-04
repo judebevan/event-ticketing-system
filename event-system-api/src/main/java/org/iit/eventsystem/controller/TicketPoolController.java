@@ -24,23 +24,27 @@ public class TicketPoolController {
         }
 
         try {
-            configService.addTicketsToPool(addRequest.getCount());
+            configService.addTicketsToPool(addRequest.getCount(), addRequest.getVendorId());
             return ResponseEntity.ok("Tickets added successfully.");
         } catch (IllegalStateException e) {
             return ResponseEntity.badRequest().body(e.getMessage());
+        } catch (IllegalArgumentException e) {
+            return ResponseEntity.badRequest().body("Invalid vendor ID.");
         }
     }
 
     @PostMapping("/purchase-tickets")
     public ResponseEntity<String> purchaseTickets(@RequestBody TicketRequestDto purchaseRequest) {
         if (!"purchase".equalsIgnoreCase(purchaseRequest.getType())) {
-            return ResponseEntity.badRequest().body("Invalid type. Only 'add' is allowed.");
+            return ResponseEntity.badRequest().body("Invalid type. Only 'purchase' is allowed.");
         }
         try {
-            configService.purchaseTicketsFromPool(purchaseRequest.getCount());
+            configService.purchaseTicketsFromPool(purchaseRequest.getCount(), purchaseRequest.getCustomerId());
             return ResponseEntity.ok("Tickets purchased successfully.");
         } catch (IllegalStateException e) {
             return ResponseEntity.badRequest().body(e.getMessage());
+        } catch (IllegalArgumentException e) {
+            return ResponseEntity.badRequest().body("Invalid customer ID.");
         }
     }
 

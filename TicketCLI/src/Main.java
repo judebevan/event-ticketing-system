@@ -45,7 +45,7 @@ public class Main {
         config.setCustomer(config.getValidatedInput(configScanner, "customer count"));
 
         ticketPool = new TicketPool(config.getMaxTicketCapacity(), config.getTotalTickets());
-        config.saveToFile("resources/configuration.json");
+        config.saveToFile("TicketCLI/resources/configuration.json");
         System.out.println("System configured successfully!");
 
     }
@@ -142,7 +142,7 @@ public class Main {
     }
 
     private static void loadConfig() {
-        config = SystemConfig.loadFromFile("resources/configuration.json");
+        config = SystemConfig.loadFromFile("TicketCLI/resources/configuration.json");
         if (config != null) {
             System.out.println("Configuration loaded successfully:");
             System.out.println("Total Tickets: " + config.getTotalTickets());
