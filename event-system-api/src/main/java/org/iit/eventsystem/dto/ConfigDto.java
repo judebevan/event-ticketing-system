@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class ConfigDto {
     private int totalTickets;
-    private int maxCapacity;
+    private int maxTicketCapacity;
     private int ticketReleaseRate;
     private int customerRetrievalRate;
 
@@ -17,12 +17,12 @@ public class ConfigDto {
         this.totalTickets = totalTickets;
     }
 
-    public int getMaxCapacity() {
-        return maxCapacity;
+    public int getTicketMaxCapacity() {
+        return maxTicketCapacity;
     }
 
-    public void setMaxCapacity(int maxCapacity) {
-        this.maxCapacity = maxCapacity;
+    public void setTicketMaxCapacity(int maxCapacity) {
+        this.maxTicketCapacity = maxCapacity;
     }
 
     public int getTicketReleaseRate() {
