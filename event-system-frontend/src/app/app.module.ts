@@ -7,6 +7,7 @@ import { AddPurchaseComponent } from './add-purchase/add-purchase.component';
 import { ConfigurationComponent } from './configuration/configuration.component';
 import {HttpClientModule} from "@angular/common/http";
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { DashboardComponent} from "./dashboard/dashboard.component";
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     AddPurchaseComponent,
     ConfigurationComponent,
     LandingPageComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,

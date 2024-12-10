@@ -1,6 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { StatusService } from '../services/status.service';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-add-purchase',
@@ -20,7 +21,7 @@ export class AddPurchaseComponent implements OnInit, OnDestroy {
   backendResponse: string = '';
   private statusSubscription!: Subscription;
 
-  constructor(private statusService: StatusService) {}
+  constructor(private statusService: StatusService, private router: Router) {}
 
   ngOnInit(): void {
     this.startSystem();
@@ -104,6 +105,11 @@ export class AddPurchaseComponent implements OnInit, OnDestroy {
     if (this.statusSubscription) {
       this.statusSubscription.unsubscribe();
     }
+  }
+
+  // Method to navigate to the Dashboard component
+  goToDashboard() {
+    this.router.navigate(['/dashboard']); // Replace with your desired route
   }
 
   ngOnDestroy(): void {
