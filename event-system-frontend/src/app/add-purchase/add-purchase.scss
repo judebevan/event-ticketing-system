@@ -113,5 +113,25 @@
       font-size: 1.2rem;
       color: #4f4f4f;
     }
+
+    .dashboard-button {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .dashboard-button button {
+      padding: 10px 20px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .dashboard-button button:hover {
+      background-color: #2980b9;
+    }
+
   }
 }

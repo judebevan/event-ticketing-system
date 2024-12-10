@@ -9,7 +9,11 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.io.IOException;
+//This class is responsible for handling HTTP requests related to configuration settings.
+// OOP Concepts Used:
+// 1. Abstraction: The ConfigController class abstracts the details of setting and retrieving configuration settings, providing high-level methods for interacting with the configuration service.
+// 2. Encapsulation: Encapsulates the logic related to configuration management within the controller layer, ensuring separation of concerns.
+// 3. Dependency Injection: Uses the @Autowired annotation to inject instances of ConfigService and VendorService, promoting loose coupling and flexibility.
 
 @RestController
 @RequestMapping("/config")

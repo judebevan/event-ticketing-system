@@ -3,6 +3,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { LandingPageComponent } from './landing-page.component';
 
 describe('LandingPageComponent', () => {
+  // Define component and fixture variables
   let component: LandingPageComponent;
   let fixture: ComponentFixture<LandingPageComponent>;
 

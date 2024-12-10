@@ -10,7 +10,9 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Main {
+    // Enum to represent the system state
     private enum SystemState { STOPPED, RUNNING }
+    // Initial state is STOPPED
     private static SystemState currentState = SystemState.STOPPED;
     private static SystemConfig config = new SystemConfig();
     private static TicketPool ticketPool;
@@ -100,6 +102,7 @@ public class Main {
         }
     }
 
+    // Start the vendor and customer threads
     private static void startThreads() {
         for (int i = 0; i < config.getVendor(); i++) {
             Thread vendorThread = new Thread(new Vendor(i+1, ticketPool, config.getTicketReleaseRate(), config.getTotalTickets()));

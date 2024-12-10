@@ -14,6 +14,25 @@ import java.util.Date;
 import java.util.Optional;
 import java.util.logging.Logger;
 
+// Purpose:
+// - The service acts as a bridge between the controller (API layer) and the data access layer (repositories), ensuring business logic is applied before interacting with the database.
+// - It manages the ticket pool configuration (total tickets, max capacity, etc.), adds tickets to the pool, and handles customer ticket purchases.
+// - It handles the creation and resetting of ticket configurations based on the provided `ConfigDto` object.
+// - The class also logs each transaction (adding or purchasing tickets) for auditing and tracking purposes.
+//
+// OOP Concepts Used:
+// 1. **Abstraction**:
+//    - The `ConfigServiceImpl` class abstracts the business logic related to ticket management, ensuring that the implementation details of interacting with repositories are hidden from the user.
+//    - Methods like `addTicketsToPool` and `purchaseTicketsFromPool` abstract away the complexities of interacting with the database and ticket pool logic.
+// 2. **Encapsulation**:
+//    - The service encapsulates the ticket pool's state (e.g., available and released tickets) and operations (e.g., adding and purchasing tickets) within the `TicketPool` object.
+//    - Database access is encapsulated within the repository interfaces, making the code more modular and easier to maintain.
+// 3. **Inheritance**:
+//    - The `ConfigServiceImpl` class implements the `ConfigService` interface, inheriting its contract and providing specific implementations for the methods defined in the interface.
+//    - Inheritance helps achieve polymorphism, where multiple implementations of the same interface can be used interchangeably (in this case, the service could be swapped with another implementation if needed).
+// 4. **Polymorphism**:
+//    - The use of the `ConfigService` interface allows polymorphism where different implementations (e.g., `ConfigServiceImpl`) can be injected and used without altering the calling code.
+
 @Service
 public class ConfigServiceImpl implements ConfigService {
 

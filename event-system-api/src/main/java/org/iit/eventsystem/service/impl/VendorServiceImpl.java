@@ -13,6 +13,13 @@ import org.springframework.stereotype.Service;
 
 import java.util.concurrent.locks.ReentrantLock;
 
+//This class serves as an intermediary between the controller and repository layers.
+// OOP Concepts Used:
+// 1. Abstraction: The VendorServiceImpl class abstracts the business logic related to vendor management, ensuring that the implementation details of interacting with repositories are hidden from the user.
+// 2. Encapsulation: The service encapsulates the vendor's state (e.g., username, email, mobile number) and operations (e.g., creating a vendor, handling login) within the Vendor object.
+// 3. Inheritance: The VendorServiceImpl class implements the VendorService interface, inheriting its contract and providing specific implementations for the methods defined in the interface.
+// 4. Concurrency: The use of a ReentrantLock ensures thread safety when setting configurations for the ticket pool.
+
 @Service
 public class VendorServiceImpl implements VendorService {
 

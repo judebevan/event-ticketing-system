@@ -3,6 +3,16 @@ package actors;
 import logger.Logger;
 import ticketPool.TicketPool;
 
+// Customer class that represents a customer buying tickets from the ticket pool at a specified rate
+// The customer retrieves tickets from the ticket pool at a specified rate and buys them
+// The customer stops buying tickets when all tickets have been bought
+// The customer stops buying tickets when the vendor stops adding tickets
+// The customer implements the Runnable interface to be executed by a thread
+// OOP feature: Encapsulation - The customer class encapsulates the ticket pool and the customer retrieval rate
+// OOP feature: Inheritance - The customer class inherits from the Runnable interface
+// OOP feature: Polymorphism - The customer class overrides the run method from the Runnable interface
+// OOP feature: Abstraction - The customer class abstracts the behavior of a customer buying tickets
+
 public class Customer implements Runnable {
     private final TicketPool ticketPool;
     private final int customerRetrievalRate;

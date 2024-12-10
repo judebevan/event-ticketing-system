@@ -77,6 +77,9 @@ public class SystemConfig {
         this.maxTicketCapacity = maxTicketCapacity;
     }
 
+    // Validate the input and return the value
+    // If the input is invalid, print an error message and ask for the input again
+    // The input must be a positive integer
     public int getValidatedInput(Scanner scanner, String inputName) {
         while (true) {
             try {
