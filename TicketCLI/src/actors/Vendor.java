@@ -2,8 +2,12 @@ package actors;
 
 import logger.Logger;
 import ticketPool.TicketPool;
-
 import java.util.Random;
+
+// Vendor class that represents a vendor adding tickets to the ticket pool at a specified rate until the total limit is reached
+// The vendor adds tickets to the ticket pool at a specified rate until the total limit is reached
+// The vendor stops adding tickets when the total limit is reached
+// The vendor implements the Runnable interface to be executed by a thread
 
 public class Vendor implements Runnable {
     private final TicketPool ticketPool;

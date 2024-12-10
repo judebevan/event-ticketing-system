@@ -6,12 +6,12 @@ import lombok.Data;
 import java.io.Serial;
 import java.io.Serializable;
 
-@Entity //bean contolling
+@Entity // Specifies that this class is a JPA entity
 @Table(name ="config") //table name db and table connects here
-@Data // getters and setters and data controlling
-public class Config implements Serializable { //serializable is used to convert object into byte stream
+@Data // Generates getter, setter, equals, hashCode, and toString methods automatically
+public class Config implements Serializable { // Implements Serializable to allow object serialization and deserialization
     @Serial
-    private static final long serialVersionUID = 5L;
+    private static final long serialVersionUID = 5L; // Unique ID for the Serializable class to verify during deserialization
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) //auto increment

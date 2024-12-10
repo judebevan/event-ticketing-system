@@ -17,6 +17,7 @@ public class EventSystemApplication {
         SpringApplication.run(EventSystemApplication.class, args);
     }
 
+    // CORS configuration to allow requests from the frontend
     @Bean
     public CorsFilter corsFilter() {
         CorsConfiguration corsConfiguration = new CorsConfiguration();

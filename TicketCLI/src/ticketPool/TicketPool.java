@@ -4,6 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class TicketPool {
+    // Queue to store tickets
     private final Queue<Integer> tickets;
     private final int maxCapacity;
     private final int totalTickets; // Total tickets allowed in the system
@@ -14,6 +15,9 @@ public class TicketPool {
         this.totalTickets = totalTickets;
     }
 
+    // Add a ticket to the pool if the pool is not full and notify consumers that a ticket is available
+    // Return true if the ticket is added successfully, false otherwise
+    // This method is synchronized to prevent
     public synchronized boolean addTicket(int ticketId) {
         if (tickets.size() >= maxCapacity) {
             return false; // Pool is full

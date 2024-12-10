@@ -6,6 +6,8 @@ describe('DashboardComponent', () => {
   let component: DashboardComponent;
   let fixture: ComponentFixture<DashboardComponent>;
 
+  // Define component and fixture variables before each test.
+  // async before each test, configure the testing module. async - await is used to handle promises.
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [ DashboardComponent ]

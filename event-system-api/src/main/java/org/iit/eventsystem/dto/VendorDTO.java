@@ -13,5 +13,8 @@ public class VendorDTO {
     public Boolean getIsAdmin() {
         return isAdmin;
     }
+
+    // 1. Encapsulation: Protects the internal state by using private fields and controlled access through getters/setters.
+    // 2. Abstraction: Provides a unified object for transferring configuration data, hiding individual field details.
 }
 

@@ -8,6 +8,12 @@ import org.iit.eventsystem.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+//This class serves as an intermediary between the controller and repository layers.
+// OOP Concepts Used:
+// 1. Abstraction: The CustomerServiceImpl class abstracts the business logic related to customer management, ensuring that the implementation details of interacting with repositories are hidden from the user.
+// 2. Encapsulation: The service encapsulates the customer's state (e.g., username, email, mobile number) and operations (e.g., creating a customer, handling login) within the Customer object.
+// 3. Inheritance: The CustomerServiceImpl class implements the CustomerService interface, inheriting its contract and providing specific implementations for the methods defined in the interface.
+
 @Service
 public class CustomerServiceImpl implements CustomerService {
 

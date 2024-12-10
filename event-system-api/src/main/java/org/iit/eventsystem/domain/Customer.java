@@ -29,6 +29,7 @@ public class Customer implements Serializable {
     @Column(name = "phone", length = 10)
     private Long mobileNo;
 
+    // planned to use for premium customers
     @Column(name = "is_premium", nullable = false)
     private boolean isPremium;
 
