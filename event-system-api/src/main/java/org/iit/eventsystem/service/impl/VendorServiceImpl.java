@@ -98,10 +98,10 @@ public class VendorServiceImpl implements VendorService {
         try {
             System.out.println("Starting setConfigurations...");
 
-            Long totalTicketsLong = Long.valueOf(totalTickets);
-            Long maxCapacityLong = Long.valueOf(maxCapacity);
-            Long ticketReleaseRateLong = Long.valueOf(ticketReleaseRate);
-            Long customerRetrievalRateLong = Long.valueOf(customerRetrievalRate);
+            Long totalTicketsLong = (long) totalTickets;
+            Long maxCapacityLong = (long) maxCapacity;
+            Long ticketReleaseRateLong = (long) ticketReleaseRate;
+            Long customerRetrievalRateLong = (long) customerRetrievalRate;
 
             System.out.println("Checking if configuration exists...");
             boolean exists = configRepository.existsByTotalTicketsAndMaxTicketCapacityAndTicketReleaseRateAndCustomerRetrievalRate(
