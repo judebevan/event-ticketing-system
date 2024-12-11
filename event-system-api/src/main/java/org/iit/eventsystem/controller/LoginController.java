@@ -5,6 +5,7 @@ import org.iit.eventsystem.domain.Vendor;
 import org.iit.eventsystem.dto.ConfigDto;
 import org.iit.eventsystem.dto.CustomerDto;
 import org.iit.eventsystem.dto.VendorDTO;
+import org.iit.eventsystem.dto.VendorLoginDto;
 import org.iit.eventsystem.service.CustomerService;
 import org.iit.eventsystem.service.VendorService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -41,7 +42,7 @@ public class LoginController {
     }
 
     @PostMapping("vendor/login")
-    public ResponseEntity<String> vendorLogin(@RequestBody VendorDTO vendorDTO) {
+    public ResponseEntity<String> vendorLogin(@RequestBody VendorLoginDto vendorDTO) {
         String username = vendorDTO.getUsername();
         String password = vendorDTO.getPassword();
 

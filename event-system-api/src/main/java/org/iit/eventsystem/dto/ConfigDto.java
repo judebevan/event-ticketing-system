@@ -17,12 +17,12 @@ public class ConfigDto {
         this.totalTickets = totalTickets;
     }
 
-    public int getTicketMaxCapacity() {
+    public int getMaxTicketCapacity() {
         return maxTicketCapacity;
     }
 
-    public void setTicketMaxCapacity(int maxCapacity) {
-        this.maxTicketCapacity = maxCapacity;
+    public void setMaxTicketCapacity(int maxTicketCapacity) {
+        this.maxTicketCapacity = maxTicketCapacity;
     }
 
     public int getTicketReleaseRate() {

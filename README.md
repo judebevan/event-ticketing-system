@@ -92,8 +92,7 @@ event-ticketing-system/
 - **Frontend**:
    - Angular
    - TypeScript
-   - HTML/CSS
-   - Node.js
+   - HTML/SCSS
 
 - **Backend**:
    - Java 17
@@ -110,7 +109,7 @@ event-ticketing-system/
 
 - Ensure all dependencies are properly installed before running any part of the project.
 - Use the latest version of Angular CLI and Node.js for optimal performance.
-- Check the `README.md` files in individual sub-projects for specific details if available.
+- Check the `README.md` files in individual subprojects for specific details if available.
 
 ---
 
