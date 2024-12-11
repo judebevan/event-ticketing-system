@@ -74,6 +74,7 @@ public class SystemConfig {
     }
 
     public void setMaxTicketCapacity(int maxTicketCapacity) {
+
         this.maxTicketCapacity = maxTicketCapacity;
     }
 

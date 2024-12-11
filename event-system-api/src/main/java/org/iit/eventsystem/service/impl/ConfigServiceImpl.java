@@ -92,7 +92,7 @@ public class ConfigServiceImpl implements ConfigService {
         }
 
         config.setTotalTickets((long) configDto.getTotalTickets());
-        config.setMaxTicketCapacity((long) configDto.getTicketMaxCapacity());
+        config.setMaxTicketCapacity((long) configDto.getMaxTicketCapacity());
         config.setTicketReleaseRate((long) configDto.getTicketReleaseRate());
         config.setCustomerRetrievalRate((long) configDto.getCustomerRetrievalRate());
 
