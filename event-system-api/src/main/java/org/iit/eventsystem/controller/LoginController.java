@@ -2,10 +2,7 @@ package org.iit.eventsystem.controller;
 
 import org.iit.eventsystem.domain.Customer;
 import org.iit.eventsystem.domain.Vendor;
-import org.iit.eventsystem.dto.ConfigDto;
-import org.iit.eventsystem.dto.CustomerDto;
-import org.iit.eventsystem.dto.VendorDTO;
-import org.iit.eventsystem.dto.VendorLoginDto;
+import org.iit.eventsystem.dto.*;
 import org.iit.eventsystem.service.CustomerService;
 import org.iit.eventsystem.service.VendorService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -67,9 +64,9 @@ public class LoginController {
     }
 
     @PostMapping("customer/login")
-    public ResponseEntity<String> customerLogin(@RequestBody CustomerDto customerDTO) {
-        String username = customerDTO.getUsername();
-        String password = customerDTO.getPassword();
+    public ResponseEntity<String> customerLogin(@RequestBody CustomerLoginDto customerLoginDto) {
+        String username = customerLoginDto.getUsername();
+        String password = customerLoginDto.getPassword();
 
         if (username == null || password == null) {
             return ResponseEntity.badRequest().body("Username and password are required.");
