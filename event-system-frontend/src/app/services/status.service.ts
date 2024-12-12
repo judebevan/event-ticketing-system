@@ -19,7 +19,7 @@ export class StatusService {
 
   // Poll the status every 10 seconds
   pollTicketPoolStatus(): Observable<any> {
-    return timer(0, 10000).pipe(switchMap(() => this.getTicketPoolStatus()));
+    return timer(0, 1000).pipe(switchMap(() => this.getTicketPoolStatus()));
   }
 
   addTickets(payload: any): Observable<string> {
